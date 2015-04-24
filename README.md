@@ -6,7 +6,7 @@ I'm really looking forward to meeting each of you in person and getting to know 
 
 First, you need to [sign up for a free Github account](http://github.com/signup), find [the class project](https://github.com/TheIronYard--Orlando/2015--SUMMER--FEE) and "star" it ([more on "starring" and notifications](https://help.github.com/articles/about-stars)). Once you do, I'll invite you to [a group for our class](https://github.com/orgs/TheIronYard--Orlando/teams/2015-summer-fee), so watch for an email from Github!
 
-Next, get acquainted with the class repo by poking around a bit, paying special attention to [the class wiki](https://github.com/TheIronYard--Orlando/2015--SUMMER--FEE/wiki). There's some important information there about how to turn in assignments and how I'll grade them. Afterward, get started on **Brace Yourself**, _due the first day of class_.
+Next, get acquainted by poking around a bit, paying special attention to [the class wiki](https://github.com/TheIronYard--Orlando/2015--SUMMER--FEE/wiki). There's some important information there about how to turn in assignments and how I'll grade them. Afterward, get started on **Brace Yourself**, _due the first day of class_.
 
 Throughout the course, I'll be adding files to this repository to distribute assignments, notes for each class, and general information about the course. Throughout the course, you'll open, close, and contribute to Issues and Pull Requests ([more about "issues" on Github](https://help.github.com/articles/about-issues)).  By the end, you'll all be Github experts!
 
