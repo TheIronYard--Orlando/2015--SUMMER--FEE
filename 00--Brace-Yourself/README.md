@@ -1,47 +1,78 @@
-### Prework -- Or what to do before you do anything else.
+# 00 -- Brace Yourself... It's gonna be a bumpy ride.
 
-As your first assignment, [create a new Issue in the class repo](https://github.com/TheIronYard--Orlando/FEE--2015--SPRING/issues/new) with the _raw_ contents of this file as the "description" (read [Mastering Issues](https://guides.github.com/features/issues/) for more).  Hint: look for the "Raw" button. You should end up with a bunch of checkboxes just like those below, thanks to [the way that Github interprets Markdown](https://guides.github.com/features/mastering-markdown/). As you complete tasks, check off the corresponding checkboxes. This is your **Work In Progress (WIP) Issue**. You'll create a new one for each Assignment to show your work and track your progress.
+Most of this assignment is getting your laptop ready for Day 1 by installing a few key pieces of software and registering for certain invaluable services like Github and Slack. Beyond that, you'll start to get familiar with Github and basic source control concepts that we'll be using throughout the class. These aren't specific to any language or toolkit; they're universal developer skills.
 
-* [X] Assumed complete ;)
-    * [X] [Create a Github account](https://github.com/signup)
-    * [X] [Star the class project](https://github.com/TheIronYard--Orlando/FEE--2015--SPRING)
+## Requirements
+
+Click on this file in Github and use the **Raw** button to see the unrendered Markdown text. If you copy and paste the text _as is_ from the **Tasks** and **Deliverables** sections below into the **Description** of your issue, you should end up with a bunch of checkboxes, just like these, thanks to [the way that Github interprets Markdown](https://guides.github.com/features/mastering-markdown/). As you complete tasks, check off the corresponding checkboxes and what your progress bar fill! Read [Mastering Issues](https://guides.github.com/features/issues/) for more information on creating issues in Github.
+
+### Tasks:
+
+* [X] [Create a Github account](https://github.com/signup)
+* [X] Find and star [the class project](https://github.com/TheIronYard--Orlando/FEE--2015--SPRING)
+* [ ] Read [the Home page on the class wiki](https://github.com/TheIronYard--Orlando/2015--SUMMER--FEE/wiki)
+* [ ] [Create a new *WIP Issue*](https://github.com/TheIronYard--Orlando/FEE--2015--SPRING/issues/new)
+  * [ ] Named `00 -- Brace Yourself -- YOUR NAME` (where `YOUR NAME` is _your_ name)
+  * [ ] With this checklist as the description
 * [ ] [Edit your Github profile](https://github.com/settings/profile) to provide:
-    * [ ] A picture, so I can recognize your face.
-    * [ ] Your full name, so I can recognize your name.
-    * [ ] A valid public email address, so I can contact you if I need to.
-* [ ] Read the `README.md` files in:
-    * [ ] [Assignments](https://github.com/TheIronYard--Orlando/FEE--2015--SPRING/tree/master/Assignments)
-    * [ ] [Notes](https://github.com/TheIronYard--Orlando/FEE--2015--SPRING/tree/master/Notes)
+  * [ ] A picture, so I can recognize your face.
+  * [ ] Your full name, so I can recognize your name.
+  * [ ] A valid public email address, so I can contact you if I need to.
 * [ ] [Install Homebrew](http://brew.sh) on your Mac
-    * [ ] Open `Terminal.app`... Don't Panic.
-    * [ ] [Install Homebrew and the `brew` command](http://brew.sh/#install)
-    * [ ] Read [the Homebrew Wiki](https://github.com/Homebrew/homebrew/tree/master/share/doc/homebrew#readme) to learn more about Homebrew
+  * [ ] Open `Terminal.app`; Don't Panic.
+  * [ ] [Install Homebrew and the `brew` command](http://brew.sh/#install)
+  * [ ] Read [the Homebrew Wiki](https://github.com/Homebrew/homebrew/tree/master/share/doc/homebrew#readme) to learn more about Homebrew
 * [ ] Using the `brew` command, install the following packages:
-    * [ ] `zsh`
-    * [ ] `git`
-    * [ ] `hub`
-    * [ ] `nvm`
-* [ ] [Install Caskroom](http://caskroom.io)
-* [ ] Using `brew cask`, install the following applications:
-    * [ ] [Google Chrome](http://google.com/chrome)
-    * [ ] [Dash](http://kapeli.com/dash)
-    * [ ] [HipChat](http://www.hipchat.com)
-* [ ] With HipChat installed:
-    * [ ] [Create your account](https://www.hipchat.com/invite/31349/a142a6025f7a427bd4813063bea8b0d1)
-    * [ ] Login with your credentials for The Iron Yard.
-    * [ ] Join the room for the class: "Orlando - Academy - JS - Jan 2015"
+  * [ ] `zsh`
+  * [ ] `git`
+  * [ ] `hub`
+  * [ ] `node`
+* [ ] Add the output of the following commands as comments on your *WIP Issue*:
+  * [ ] `which zsh && zsh --version`
+  * [ ] `which git && git --version`
+  * [ ] `which hub && hub --version`
+  * [ ] `which node && node --version`
+* [ ] Install the following (bonus if you use `brew`):
+  * [ ] [Google Chrome](http://google.com/chrome)
+  * [ ] [Dash](http://kapeli.com/dash)
+  * [ ] [Slack](http://www.slack.com)
+  * [ ] [Atom](http://atom.io)
 * [ ] [Complete the "Hello World" Github guide](https://guides.github.com/activities/hello-world/)
-    * [ ] Add a link to your new Github repo as a comment in your WIP Issue.
-* [ ] Create _another_ new repository called `TIY-Assignments`
-    * [ ] Check the box to create an initial `README.md` file
-    * [ ] Select the `CC0` -- "Creative Commons" license for your work
-    * [ ] Add a link to your `TIY-Assignments` repo as a comment to your WIP Issue
+  * [ ] Add a link to your new Github repo as a comment on your *WIP Issue*
+* [ ] Create a new repository called `TIY-Assignments`
+  * [ ] Check the box to create an initial `README.md` file
+  * [ ] Select the `CC0` -- "Creative Commons" license for your work
+  * [ ] Add a link to your `TIY-Assignments` repo as a comment on your *WIP Issue*
 * [ ] [Complete the "Forking Projects" Github guide](https://guides.github.com/activities/forking/)
-    * [ ] Find and fork the Prezto project on Github
-    * [ ] Add a link to your new fork as a comment to your WIP Issue
-* [ ] Close this issue! You're done!
+    * [ ] Add a link to your `Fork-and-Spoon` repo as a comment on your *WIP Issue*
+* [ ] Install Prezto
+  * [ ] Find _and fork_ the Prezto project on Github; add a link as a comment on your *WIP Issue*
+  * [ ] Use the `hub` command to clone your fork into your home directory as `.zprezto`: `hub clone prezto .zprezto`
+* [ ] Watch _The Long Run_ Videos on [Delve.tv](http://delve.tv)
+   * [ ] [_The Long Game_, part 1](http://delve.tv/the-long-game-part-one/)
+   * [ ] [_The Long Game_, part 2](http://delve.tv/the-long-game-part-2/)
 
-#### Extracurricular Activities
+### Deliverables:
+
+* [ ] *WIP Issue*
+  * [ ] named `00 -- Brace Yourself -- YOUR NAME`
+  * [ ] with description matching **Tasks**
+* [ ] A Github Profile with:
+  * [ ] Intelligible picture of yourself
+  * [ ] Your full name
+  * [ ] A valid email address
+* [ ] Comments on your *WIP Issue* with output from
+  * [ ] `which zsh && zsh --version`
+  * [ ] `which git && git --version`
+  * [ ] `which hub && hub --version`
+  * [ ] `which node && node --version`
+* [ ] Comments on your *WIP Issue* with links to your repos for
+  * [ ] `Hello-World`
+  * [ ] `TIY-Assignments`
+  * [ ] `Fork-and-Spoon`
+  * [ ] `prezto`
+
+## Extracurricular Activities
 
 Regardless of how good you think you are at typing, a lot of the mistakes you make at first will be simple typographic errors. If you _don't_ know how to touch type (i.e. without looking at the keyboard), start practicing _now_ with http://www.keybr.com/. If you're fairly confident in your typing ability, try working through the JavaScript lessons on http://typing.io
 
@@ -50,9 +81,3 @@ As I recommended to you in your interviews, there are two books that I suggest y
 * [_Getting Things Done_ by David Allen](http://j.mp/134jABk)
 * [_Pragmatic Thinking and Learning_ by Andy Hunt](http://j.mp/1D5nmu8)
 
-Finally, here are a couple of videos that I find inspirational and educational. We'll watch them again when class starts, but if you've got all this time on your hands:
-
-* [_The Growth Mindset_ by Khan Academy](https://www.youtube.com/watch?v=wh0OS4MrN3E)
-* [Video Essays by Delve.TV](http://delve.tv/essays/)
-   * [_The Long Game_, part 1](http://delve.tv/the-long-game-part-one/)
-   * [_The Long Game_, part 2](http://delve.tv/the-long-game-part-2/)
