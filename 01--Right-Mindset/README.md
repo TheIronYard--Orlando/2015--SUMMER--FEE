@@ -112,4 +112,6 @@ There's a repository in `TheIronYard--Orlando` called `student-roster` that's la
   * [primitive values](https://developer.mozilla.org/en-US/docs/Glossary/Primitive)
   * [expressions and operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators)
 * [JavaScript Garden](https://bonsaiden.github.io/JavaScript-Garden/) (Advanced)
-
+* [_Learn Code the Hard Way: CLI Crash Course_ by Zed Shaw](http://learncodethehardway.org/cli/book/cli-crash-course.html)
+* [Documentation for the `hub` command](http://hub.github.com)
+* [Vim Adventures](http://vim-adventures.com) (It's a trap!)
