@@ -94,15 +94,17 @@ You're probably getting sick of this by now, but you're getting a good feel for 
 . . .
 ```
 
-*** TodoCLI and You!
+### TodoCLI and You!
 
-Walk through the same steps that we did in class by re-typing the code in [`todo.js`](todo.js) yourself. Clone your `TIY-Assignments` repo locally, create a branch called `03--todc-cli-1`, and create an empty file called `todo.js`. Commit and push this work to Github and open a Pull Request named `TodoCLI Part 1`. Copy the **TodoCLI and You!** checklist into the description. Create issues in your `TIY-Assignments` repo for each of the User Stories that we wrote together. Add a link to the open PR in each issue. As you transcribe the work we did together, remember to save, commit, and push often. Try to get 1 more test to pass than we did in class...
+Walk through the same steps that we did in class by re-typing the code in [`todo.js`](todo.js) yourself. Clone your `TIY-Assignments` repo locally, create a branch called `03--todo-cli-1`, and create an empty file called `todo.js`. Commit and push this work to Github and open a Pull Request named `TodoCLI Part 1`. Copy the **TodoCLI and You!** checklist into the description. Create issues in your `TIY-Assignments` repo for each of the User Stories that we wrote together. Add a link to the open PR in each issue. As you transcribe the work we did together, remember to save, commit, and push often. Try to get 1 more test to pass than we did in class...
 
 ## Links
 
 * About Planning
   * [User Stories](http://en.wikipedia.org/wiki/User_story)
   * [Effort Estimation](http://en.wikipedia.org/wiki/Software_development_effort_estimation)
+  * [Agile Manifesto](http://agilemanifesto.org/)
+  * [Extreme Programming](http://en.wikipedia.org/wiki/Extreme_programming)
 * JavaScript Reference
   * [The MDN JavaScript Reference: the `Array` type](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array#Properties)
     * [Instance Methods](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array#Methods_2)
@@ -113,4 +115,6 @@ Walk through the same steps that we did in class by re-typing the code in [`todo
     * [Guide to Chai](http://chaijs.com/guide/)
 * [Test-Driven Development](http://en.wikipedia.org/wiki/Test-driven_development)
 * [Software Design](http://en.wikipedia.org/wiki/Software_design)
-
+* [Sq3R Reading Method](http://en.wikipedia.org/wiki/SQ3R)
+* [What does "grok" mean?](http://en.wikipedia.org/wiki/Grok)
+* 
