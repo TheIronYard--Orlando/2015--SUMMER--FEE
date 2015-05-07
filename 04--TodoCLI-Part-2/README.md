@@ -8,6 +8,19 @@
 
 ## Agenda
 
+* [ ] **Yak Shaving** (~15m)
+  * [ ] initial filstructure
+  * [ ] what's the mantra?
+* [ ] **API Implementation** (~30m + ~30m)
+  * [ ] scaffold the API & test plan: `chai`
+  * [ ] running the tests automatically: `nodemon`
+* [ ] **Interace Implementation** (~30m + ~30m)
+  * [ ] scaffold the interface & test plan?
+  * [ ] what's in a `process`?
+  * [ ] executable files and permissions
+  * [ ] refactoring to separate concerns
+* [ ] **Assignment Review** (~30m, PM)
+
 ## Assignment
 
 ```markdown
