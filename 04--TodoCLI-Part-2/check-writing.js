@@ -14,6 +14,10 @@ var expect = require('chai').expect;
 
 function toEnglish(number){
     // ????
+
+
 }
 
 // Test cases here...
+expect(toEnglish).to.exist;
+expect(toEnglish(1 === "one")).to.equal("one");
