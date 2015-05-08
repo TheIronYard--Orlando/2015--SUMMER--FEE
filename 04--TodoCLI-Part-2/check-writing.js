@@ -13,12 +13,15 @@
 var expect = require('chai').expect;
 
 function toEnglish(number){
-    if (1 === "one"){
-        return one;
+    if (number === 2){
+        return "two";
     }
+
+
     // ????
 }
 
 // Test cases here...
 expect(toEnglish).to.exist;
 expect(toEnglish(1)).to.equal("one");
+expect(toEnglish(2)).to.equal("two");
