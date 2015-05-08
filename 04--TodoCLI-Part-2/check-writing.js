@@ -64,6 +64,9 @@ function toWord(number){
     if (number === 16){
         return "sixteen";
     }
+    if (number === 17){
+        return "seventeen";
+}
 }
 
 // Test cases here...
@@ -85,3 +88,4 @@ expect(toWord(13)).to.equal("thirteen");
 expect(toWord(14)).to.equal("fourteen");
 expect(toWord(15)).to.equal("fifteen");
 expect(toWord(16)).to.equal("sixteen");
+expect(toWord(17)).to.equal("seventeen");
