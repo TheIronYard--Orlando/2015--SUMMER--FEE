@@ -12,7 +12,7 @@
  */
 var expect = require('chai').expect;
 
-function toEnglish(number){
+function toWord(number){
     if (number === 0){
         return "zero";
     }
@@ -28,14 +28,18 @@ function toEnglish(number){
     if (number === 4){
         return "four";
     }
+    if (number === 5){
+        return "five";
+    }
     // ????
 }
 
 // Test cases here...
-expect(toEnglish).to.exist;
-expect(toEnglish(0)).to.equal("zero");
-expect(toEnglish(1)).to.equal("one");
-expect(toEnglish(2)).to.equal("two");
-expect(toEnglish(3)).to.equal("three");
-expect(toEnglish(4)).to.equal("four");
-expect(toEnglish(5)).to.equal("five");
+expect(toWord).to.exist;
+expect(toWord(0)).to.equal("zero");
+expect(toWord(1)).to.equal("one");
+expect(toWord(2)).to.equal("two");
+expect(toWord(3)).to.equal("three");
+expect(toWord(4)).to.equal("four");
+expect(toWord(5)).to.equal("five");
+expect(toWord(6)).to.equal("six");
