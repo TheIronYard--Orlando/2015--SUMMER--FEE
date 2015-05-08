@@ -9,64 +9,89 @@
  * Given a function `toEnglish` that accepts a JavaScript
  * `Number` and returns a `String` formatted for use on a
  * check, as above.
+ *
+ * What did we do well?
+ *
+ * - team work
+ * - using the format more
+ * - audience: STFU!
+ * - converse via Slack
+ * - planning!
+ * - baby steps
+ * - WORKING CODE, Y'ALL!
+ *
+ * What did we do poorly? What can we improve?
+ *
+ * - typing speed
+ * - just use the keyboard
+ * - maybe use arrays? WTF?
+ * - talk more and louder
+ * - practice speaking
+ *
+ * Did we meet our goals and why?
+ *
+ * - FAIL: `toEnglish(123.45) === "one hundred twenty three and 45/100s dollars"`
+ * - PASS: `toWord(0)` through `toWord(17)`!
+ * - TYPING A LOT.
+ * - Running the tests all the time.
  */
 var expect = require('chai').expect;
 
-function toWord(number){
-    if (number === 0){
+function toWord(number) {
+    if (number === 0) {
         return "zero";
     }
-    if (number === 1){
+    if (number === 1) {
         return "one";
     }
-    if (number === 2){
+    if (number === 2) {
         return "two";
     }
-    if (number === 3){
+    if (number === 3) {
         return "three";
     }
-    if (number === 4){
+    if (number === 4) {
         return "four";
     }
-    if (number === 5){
+    if (number === 5) {
         return "five";
     }
-    if (number === 6){
+    if (number === 6) {
         return "six";
     }
-    if (number === 7){
+    if (number === 7) {
         return "seven";
     }
-    if (number === 8){
+    if (number === 8) {
         return "eight";
     }
-    if (number === 9){
+    if (number === 9) {
         return "nine";
     }
-    if (number === 10){
+    if (number === 10) {
         return "ten";
     }
-    if (number === 11){
+    if (number === 11) {
         return "eleven";
     }
-    if (number === 12){
+    if (number === 12) {
         return "twelve";
     }
-    if (number === 13){
+    if (number === 13) {
         return "thirteen";
     }
-    if (number === 14){
+    if (number === 14) {
         return "fourteen";
     }
-    if (number === 15){
+    if (number === 15) {
         return "fifteen";
     }
-    if (number === 16){
+    if (number === 16) {
         return "sixteen";
     }
-    if (number === 17){
+    if (number === 17) {
         return "seventeen";
-}
+    }
 }
 
 // Test cases here...
