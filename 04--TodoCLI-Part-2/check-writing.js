@@ -49,8 +49,13 @@ function toWord(number){
     if (number === 11){
         return "eleven";
     }
-    if (number ===)
-    // ????
+    if (number === 12){
+        return "twelve";
+    }
+    if (number === 13){
+        return "thirteen";
+    }
+    if (number === 14)
 }
 
 // Test cases here...
@@ -68,3 +73,5 @@ expect(toWord(9)).to.equal("nine");
 expect(toWord(10)).to.equal("ten");
 expect(toWord(11)).to.equal("eleven");
 expect(toWord(12)).to.equal("twelve");
+expect(toWord(13)).to.equal("thirteen");
+expect(toWord(14)).to.equal("fourteen");
