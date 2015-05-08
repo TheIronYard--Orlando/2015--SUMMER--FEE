@@ -31,6 +31,15 @@ function toWord(number){
     if (number === 5){
         return "five";
     }
+    if (number === 6){
+        return "six";
+    }
+    if (number === 7){
+        return "seven";
+    }
+    if (number === 8){
+        return "eight";
+    }
     // ????
 }
 
@@ -43,3 +52,6 @@ expect(toWord(3)).to.equal("three");
 expect(toWord(4)).to.equal("four");
 expect(toWord(5)).to.equal("five");
 expect(toWord(6)).to.equal("six");
+expect(toWord(7)).to.equal("seven");
+expect(toWord(8)).to.equal("eight");
+expect(toWord(9)).to.equal("nine");
