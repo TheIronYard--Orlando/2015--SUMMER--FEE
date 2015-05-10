@@ -1,0 +1,19 @@
+#!/usr/bin/env zsh
+
+if [[ $# -lt 1 ]]; then
+  echo 'error: missing argument' >&2
+  cat <<'USAGE'
+usage: create.sh XX--Assignment-Name
+
+  create a `README.md` file in `XX--Assignment-Name/` copying the contents of
+  `TEMPLATE.md`
+USAGE
+
+  exit 1
+fi
+
+ginstall -vCD TEMPLATE.md $1/README.md \
+  && git add $1 \
+  && git status -s
+
+# vim: ft=zsh
