@@ -85,7 +85,36 @@ You've just completed your first week at The Iron Yard. You've learned a lot in 
 * Describe the technique of using User Stories to write application specifications.
 * Write something about the principle of Extreme Programming (XP) called YAGNI.
 
-If you're looking to get a leg up on the material for the week, start investigating the DOM and
+#### BEAST MODE
+
+I promised I wouldn't _assign_ any more "Reading JavaScript", and I won't. If you're looking to get a leg up on the material for the week, though, start investigating [the DOM on MDN](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model) and add some documentation to your `about/javascript.md` file. Pay particular attention to the following:
+
+* the `Window` object
+  * properties like `location`, `document`, `history`
+  * what kind of things are stored in those properties (warning: rabbit holes)
+  * methods like `alert`, `confirm`, `reload`, `open` and `close`
+* the `Location` object
+  * all the properties here are important
+  * what happens when you mess around with them?
+* the `Document` object
+  * properties like `head` and `body`
+  * methods like
+    * `getElementById` and `getElementsByClassName`
+    * `querySelector` and `querySelectorAll`
+    * `appendChild` and the `create*` family
+    * `write` and `writeln`
+* the `HTMLElement` type
+  * properties like
+    * `id` and `className`
+    * `innerHTML` and `outerHTML`
+    * `children`, `parent`, `nextSibling`, and `firstChild`
+  * methods like
+    * `addEventListener` and `dispatchEvent`
+    * the `*Attribute` family
+* the `HTMLCollection` and `NodeList` types
+  * how they differ from `Array`
+  * how they can be used _like_ an `Array`
+  * the `item` method
 
 ### GitHubbing to Know You, Part 2
 
@@ -93,11 +122,13 @@ This week, you'll be randomly assigned classmates to interrogate and a question 
 
 ### Making Blueprints
 
-Some of your homework assignments for the week will be duplicating functionality based on a [reference implementation](http://en.wikipedia.org/wiki/Reference_implementation).
+Some of your homework assignments for the week will be duplicating functionality based on a [reference implementation](http://en.wikipedia.org/wiki/Reference_implementation) provided in [a series of articles on Tympanus.net](http://tympanus.net/codrops/category/blueprints/). Since our focus is on JavaScript in the browser and not HTML and CSS (yet), start by copying the code provided in the reference implementations into files in your `TIY-Assignments` repo.
 
-* Create directories for `NestedAccordion`, `FullWidthTabs`, and `QuotesRotator`
-* try `git add` on empty directories: what happens? why do you think? what can you find about it?
-* copy example code: HTML into `index.html`, CSS into `styles.css`, JS into `scripts.js`
+Create directories named [`NestedAccordion`](http://tympanus.net/codrops/2013/03/29/nested-accordion/), [`FullWidthTabs`](http://tympanus.net/codrops/2014/03/21/responsive-full-width-tabs/), and [`QuotesRotator`](http://tympanus.net/codrops/2013/03/29/quotes-rotator/). Try `git add`-ing these empty directories and report what happens in your _WIP Issue_ as a comment. Are you crazy? What just happened? Can you find some resource that explains why? Link to it and re-explain more better in your own words.
+
+Now create files in each directory: `index.html`, `styles.css`, and `scripts.js`. Don't put anything in them yet, but `git add` them nonetheless. Did that work differently? What's going on here? Can you explain it? Find some research to back up your hypothesis and link to it. Don't worry, I'll wait for you.
+
+Copy the code from the reference implementation into the appropriate files (I'm not gonna tell you which). Commit those and push them into your _WIP Branch_... You _were_ using your _WIP Branch_, right?
 
 #### BEAST MODE
 
@@ -105,7 +136,7 @@ If you open the `index.html` files that you just made in a browser you'll run in
 
 ### Prep for TodoMVC
 
-Tomorrow, we'll start building [TodoMVC](http://todomvc.com) with plain "vanilla" JavaScript in the browser. To get ready, you'll need to [download the starter template from Github](). Create a new repo on Github called `TIY-TodoMVC` and commit and push the contents of the starter template to `master`. Then review the [application specifications]() and examine some of the reference implementations.
+Tomorrow, we'll start building [TodoMVC](http://todomvc.com) with plain "vanilla" JavaScript in the browser. To get ready, you'll need to [download the starter template from Github](https://github.com/tastejs/todomvc-app-template/archive/master.zip). Create a new repo on Github called `TIY-TodoMVC` and commit and push the contents of the starter template to `master`. Then review the [application specifications](https://github.com/tastejs/todomvc/blob/master/app-spec.md) and examine some of the reference implementations. Make some notes (i.e. code comments) in the JavaScript file (which is pretty empty) about the approach we might take.
 
 #### BEAST MODE
 
@@ -116,8 +147,8 @@ If you open the `index.html` file from the starter template in a browser, it pro
 * [TodoMVC](http://todomvc.com)
   * [starter template on Github](https://github.com/tastejs/todomvc-app-template) ([download](https://github.com/tastejs/todomvc-app-template/archive/master.zip))
   * [project specifications](https://github.com/tastejs/todomvc/blob/master/app-spec.md)
-* References for DOM JavaScript
-  * [_Document Object Model_ on MDN](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model)
+* [The Document Object Model (DOM)](http://en.wikipedia.org/wiki/Document_Object_Model)
+  * [_Web APIs: Document Object Model_ on MDN](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model)
   * [_Interactive Web Pages with JavaScript_ on Team Treehouse](http://teamtreehouse.com/library/interactive-web-pages-with-javascript)
   * [_Try jQuery_ on Code School](https://www.codeschool.com/courses/try-jquery)
 * [_Blueprints_ articles on Tympanus.net](http://tympanus.net/codrops/category/blueprints/)
