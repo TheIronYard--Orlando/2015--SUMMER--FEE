@@ -78,7 +78,14 @@
 
 ### Journal, Week 1
 
-You've just completed your first week at The Iron Yard. You've learned a lot in a very short amount of time. Take some time tonight to review your notes and write them down. Use whatever format helps you get the ideas out: bulleted lists, stream of consciousness, retelling a story. Consider this a draft that you'll revise a few times throughout the week. Put this work in a branch called `journal-week-1` in your `USERNAME.github.io` repo. Don't forget to link to that PR in your _WIP Issue_!
+You've just completed your first week at The Iron Yard. You've learned a lot in a very short amount of time. Take some time tonight to review your notes and write them down. Use whatever format helps you get the ideas out: bulleted lists, stream of consciousness, retelling a story. Consider this a draft that you'll revise a few times throughout the week. Put this work in a branch called `journal-week-1` in your `USERNAME.github.io` repo. Don't forget to link to that PR in your _WIP Issue_! Here are some suggestions for topics:
+
+* What do developers do? What principles of a developer have you learned?
+* Explain the outside-in and inside-out technique we employed for TodoCLI.
+* Describe the technique of using User Stories to write application specifications.
+* Write something about the principle of Extreme Programming (XP) called YAGNI.
+
+If you're looking to get a leg up on the material for the week, start investigating the DOM and
 
 ### GitHubbing to Know You, Part 2
 
@@ -96,15 +103,18 @@ Some of your homework assignments for the week will be duplicating functionality
 
 If you open the `index.html` files that you just made in a browser you'll run into some problems. Can you fix them so that they work _exactly_ like the demo sites?
 
-### Prep for TodoMVC**
+### Prep for TodoMVC
 
-* download the template from Github (download button)
-* create a new repo in Github called `TIY-TodoMVC`
-* push the cloned repo into `TIY-TodoMVC:master`
+Tomorrow, we'll start building [TodoMVC](http://todomvc.com) with plain "vanilla" JavaScript in the browser. To get ready, you'll need to [download the starter template from Github](). Create a new repo on Github called `TIY-TodoMVC` and commit and push the contents of the starter template to `master`. Then review the [application specifications]() and examine some of the reference implementations.
+
+#### BEAST MODE
+
+If you open the `index.html` file from the starter template in a browser, it probably won't look like much. Can you get it working? There's probably a `README` file lying around somewhere that can help you.
 
 ## Resources
 
-* Link to TodoMVC
-  * TodoMVC template project
-  * project specifications
+* [TodoMVC](http://todomvc.com)
+  * [starter template on Github](https://github.com/tastejs/todomvc-app-template) ([download](https://github.com/tastejs/todomvc-app-template/archive/master.zip))
+  * [project specifications](https://github.com/tastejs/todomvc/blob/master/app-spec.md)
+*
 
