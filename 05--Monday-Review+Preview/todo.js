@@ -14,15 +14,22 @@ function addTaskToList(task, list){
     // What is the task? @param task
     // Where is the task going? @param list
     // What order / priority? lowest, on the bottom
-    return list.push(task);
+    return list.push({
+        text: task, completed: false
+    });
     // add task to list somehow on the bottom
 }
 
 expect(taskList.length).to.equal(0);
 addTaskToList("Remember the milk", taskList);
-expect(taskList[0]).to.equal("Remember the milk");
 expect(taskList.length).to.equal(1);
+expect(taskList[0].text)
+    .to.equal("Remember the milk");
 
-// expect what?
+expect(taskList.length).to.equal(1);
 addTaskToList("Take out the trash", taskList);
-// expect what now?
+expect(taskList.length).to.equal(2);
+expect(taskList[1].text)
+    .to.equal("Take out the trash");
+
+// expect(taskList[1]).to.not.be.completed?
