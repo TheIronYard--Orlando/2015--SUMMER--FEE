@@ -97,6 +97,7 @@ You have your assignment. Here are your targets. Now you just have to _talk_ to 
 #### Faves :v: (only 2, only 2)
 
 | you ask      | they answer  |
+| ------------ | ------------ |
 | Epicurean306 | sjoyal       |
 | JessyRiordan | jorgehjr84   |
 | sjoyal       | JessyRiordan |
