@@ -81,6 +81,8 @@ You have your assignment. Here are your targets. Now you just have to _talk_ to 
 
 #### Hometown, :dog: or :cat:?
 
+| you ask      | they answer  |
+| ------------ | ------------ |
 | Epicurean306 | gatorpazz    |
 | JessyRiordan | pope410211   |
 | sjoyal       | Epicurean306 |
@@ -92,8 +94,9 @@ You have your assignment. Here are your targets. Now you just have to _talk_ to 
 | kmattiko     | MStaehling   |
 | gatorpazz    | pope410211   |
 
-#### Faves :v:
+#### Faves :v: (only 2, only 2)
 
+| you ask      | they answer  |
 | Epicurean306 | sjoyal       |
 | JessyRiordan | jorgehjr84   |
 | sjoyal       | JessyRiordan |
