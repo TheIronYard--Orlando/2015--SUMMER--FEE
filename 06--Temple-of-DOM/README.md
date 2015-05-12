@@ -40,6 +40,10 @@
 ```markdown
 * [ ] **Yak Shaving**
   * _WIP Issue_: `06 -- Temple of DOM -- YOUR NAME`
+    * [ ] Link to PR in `USERNAME.github.io`
+    * [ ] Link to PR in `TIY-Assignments`
+    * [ ] Link to PR in `TIY-TodoMVC`
+    * [ ] Link User Story issues in `TIY-TodoMVC` to PR in `TIY-TodoMVC`
   *  _WIP Branch_:
     *  `USERNAME.github.io:journal-week-1`
     *  `TIY-Assignments:06--temple-of-dom`
