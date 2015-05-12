@@ -12,7 +12,8 @@ USAGE
   exit 1
 fi
 
-ginstall -vCD TEMPLATE.md $1/README.md \
+git checkout -b $1:l \
+  && ginstall -vCD TEMPLATE.md $1/README.md \
   && git add $1 \
   && git status -s
 
