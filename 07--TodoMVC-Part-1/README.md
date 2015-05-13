@@ -92,3 +92,5 @@ A todo app isn't particularly helpful if it forgets all your todos. Read up on [
  * https://developer.mozilla.org/en-US/docs/Web/Events
  * examples: [`click`](https://developer.mozilla.org/en-US/docs/Web/Events/click), [`dblclick`](https://developer.mozilla.org/en-US/docs/Web/Events/dblclick)
  * use [`Element.addEventListener`](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener) to attach event listeners
+* **How can I practice these skills?**
+ * [_Make an Interactive Website_ on CodeCademy.com](http://www.codecademy.com/skills/make-an-interactive-website)
