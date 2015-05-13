@@ -88,3 +88,7 @@ A todo app isn't particularly helpful if it forgets all your todos. Read up on [
  * http://alistapart.com/article/taking-advantage-of-html5-and-css3-with-modernizr
  * http://html5doctor.com/using-modernizr-to-detect-html5-features-and-provide-fallbacks/
  * [Modernizr](http://modernizr.com/) and [HTML5 Boilerplate](https://html5boilerplate.com/)
+* **What JavaScript event types exist?**
+ * https://developer.mozilla.org/en-US/docs/Web/Events
+ * examples: [`click`](https://developer.mozilla.org/en-US/docs/Web/Events/click), [`dblclick`](https://developer.mozilla.org/en-US/docs/Web/Events/dblclick)
+ * use [`Element.addEventListener`](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener) to attach event listeners
