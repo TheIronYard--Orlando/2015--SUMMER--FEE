@@ -1,4 +1,4 @@
-# ASSIGNMENT TITLE
+# 07 -- TodoMVC, Part 1
 
 ## Rituals (~1h 15m)
 
@@ -12,23 +12,59 @@
 
 ```markdown
 * [ ] **Yak Shaving**
-  * _WIP Issue_: `XX -- Assignment Name -- YOUR NAME`
+  * _WIP Issue_: `07 -- TodoMVC, Part 1 -- YOUR NAME`
+    * Link to your PR in `USERNAME.github.io`
+    * Link to your PR in `atudent-roster`
+    * Link to your PR in `TIY-Assignments`
   *  _WIP Branch_:
+    * `USERNAME.github.io:journal-week-1`
+    * `student-roster:master`
+    * `TIY-TodoMVC:07--todo-mvc-1`
   * _WIP Files_:
-* [ ] **WRITING**
-  * checkpoints
-* [ ] **READING**
-  * checkpoints
-* [ ] **CODING**
-  * checkpoints
+    * `USERNAME.github.io`
+      * `journal-week-1.md` (or something else)
+    * `student-roster`
+      * `2015-05/FEE/USERNAME.md` (various)
+    * `TIY-TodoMVC`
+      * `js/app.js`
+* [ ] **Journal, Week 1**
+  * [ ] Look, ma, it's a Final Draft!
+  * [ ] First revision of Final Draft...
+  * [ ] Peer review: 1x :+1:
+  * [ ] Peer review: 2x :+1:
+* [ ] **Githubbing to Know You**
+  * [ ] target acquired, data in transit
+  * [ ] data transfer complete, PR inbound
+* [ ] **TodoMVC and You!**
+  * [ ] caught up to in-class!
+  * [ ] I can _see tasks_!
+  * [ ] I can _add tasks_!
+  * [ ] I can _complete tasks_!
+  * [ ] I can _delete tasks_!
+  * [ ] **BEAST MODE** I can _edit tasks_!
+  * [ ] **BEAST MODE** And they update!
+  * [ ] **NIGHTMARE MODE** Screw you, refresh!
 ```
 
-### WRITING ASSIGNMENT
+### Journal, Week 1
 
-### READING ASSIGNMENT
+You should have a Final Draft ready by tomorrow, Thursday. Yes, tomorrow is already Thursday. Write a solid Draft, and get two people to review it for you. If you're reviewing sosmeone else's draft, write a one-sentence summary of their article as a comment _on their PR_ and give them a big `:+1:`... _if they completed the assignment_. If there are things that they could change or improve or parts that you really liked, leave some comments on those, too... Maybe on a specific line, even.
 
-### CODING ASSIGNMENT
+### Githubbing to Know You
+
+With your repo up to date, talk to your partner. There may be some momentary discomfort. Edit your partner's `USERNAME.md` file in your fork and open a Pull Request. Collisions will occur; hilarity ensues.
+
+### TodoMVC and You!
+
+Type out the work that we did in class today to get some practice and update your User Story issues with a plan of attack for each piece of functionality. Take it a piece at a time, ensuring that you have a JavaScript representation of the list that gets transformed and rendered to the page. Try to keep your Concerns separate or at least document the code where you think you might be violating that rule.
+
+#### BEAST MODE
+
+Editing is harder than it looks... There's just a few extra moving parts, really. Can you get the edit interface to appear per the spec? Can you get it to update the value of the task? Can you get it to update the _rendering_ of the task?
+
+#### NIGHTMARE MODE
+
+A todo app isn't particularly helpful if it forgets all your todos. Read up on [the WebStorage API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API/Using_the_Web_Storage_API) and use `localStorage` to keep your tasks around after a refresh.
 
 ## Resources
 
-* LINK
