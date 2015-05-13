@@ -6,7 +6,22 @@
 * **Three Little Things** (~30m)
 * **Homework Review** (~30m)
 
-## Agenda
+## Agenda (~1h 15m)
+
+* **Intro to TodoMVC** (~15m)
+  * What does it do?
+  * How does it work?
+  * Investigative research!
+* [ ] **Planning** (~30m)
+  * User Story Planning: differences?
+  * Interface Planning: what happens when?
+  * API Planning: what can we reuse?
+  * What is this MVC thingy?
+* [ ] **Implementation** (~1h: 2 x 25m)
+  * Start with a list...
+  * How do we _add_ to that list?
+  * Rendering the Model
+  * How would we _delete_?
 
 ## Assignment
 
