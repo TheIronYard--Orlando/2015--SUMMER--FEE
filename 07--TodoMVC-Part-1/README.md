@@ -8,7 +8,7 @@
 
 ## Agenda (~1h 15m)
 
-* **Intro to TodoMVC** (~15m)
+* [ ] **Intro to TodoMVC** (~15m)
   * What does it do?
   * How does it work?
   * Investigative research!
@@ -29,7 +29,7 @@
 * [ ] **Yak Shaving**
   * _WIP Issue_: `07 -- TodoMVC, Part 1 -- YOUR NAME`
     * Link to your PR in `USERNAME.github.io`
-    * Link to your PR in `atudent-roster`
+    * Link to your PR in `student-roster`
     * Link to your PR in `TIY-Assignments`
   *  _WIP Branch_:
     * `USERNAME.github.io:journal-week-1`
@@ -63,7 +63,7 @@
 
 ### Journal, Week 1
 
-You should have a Final Draft ready by tomorrow, Thursday. Yes, tomorrow is already Thursday. Write a solid Draft, and get two people to review it for you. If you're reviewing sosmeone else's draft, write a one-sentence summary of their article as a comment _on their PR_ and give them a big `:+1:`... _if they completed the assignment_. If there are things that they could change or improve or parts that you really liked, leave some comments on those, too... Maybe on a specific line, even.
+You should have a Final Draft ready by tomorrow, Thursday. Yes, tomorrow is already Thursday. Write a solid Draft, and get two people to review it for you. If you're reviewing someone else's draft, write a one-sentence summary of their article as a comment _on their PR_ and give them a big `:+1:`... _if they completed the assignment_. If there are things that they could change or improve or parts that you really liked, leave some comments on those, too... Maybe on a specific line, even.
 
 ### Githubbing to Know You
 
