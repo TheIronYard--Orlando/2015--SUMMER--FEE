@@ -83,7 +83,7 @@ A todo app isn't particularly helpful if it forgets all your todos. Read up on [
 
 ## Resources
 
-* **Why do we use `.no-js` / `.js` on the `<html>` tag?
+* **Why do we use `.no-js` / `.js` on the `<html>` tag?**
  * http://stackoverflow.com/questions/6724515/what-is-the-purpose-of-the-html-no-js-class
  * http://alistapart.com/article/taking-advantage-of-html5-and-css3-with-modernizr
  * http://html5doctor.com/using-modernizr-to-detect-html5-features-and-provide-fallbacks/
