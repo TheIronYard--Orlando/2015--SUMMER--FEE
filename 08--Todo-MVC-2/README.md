@@ -74,4 +74,9 @@ Get your code up to the point we left it in class, and start adding functionalit
 
 * [HTML `<template>` tag](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/template)
  * [_HTML's New Template Tag_ by Eric Bidelman](http://www.html5rocks.com/en/tutorials/webcomponents/template/)
-
+* [CodeSchool HTML/CSS courses](https://www.codeschool.com/paths/html-css)
+ * [Front-end Foundations](https://www.codeschool.com/courses/front-end-foundations)
+ * [Front-end Formations](https://www.codeschool.com/courses/front-end-formations)
+ * [CSS Cross Country](https://www.codeschool.com/courses/css-cross-country)
+ * **BONUS!** [Fundamentals of Design](https://www.codeschool.com/courses/fundamentals-of-design)
+* [Front End Web Development on TeamTreehouse.com](http://teamtreehouse.com/tracks/front-end-web-development)
