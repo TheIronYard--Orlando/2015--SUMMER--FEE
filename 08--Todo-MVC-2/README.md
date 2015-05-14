@@ -72,4 +72,6 @@ Get your code up to the point we left it in class, and start adding functionalit
 
 ## Resources
 
-* LINK
+* [HTML `<template>` tag](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/template)
+ * [_HTML's New Template Tag_ by Eric Bidelman](http://www.html5rocks.com/en/tutorials/webcomponents/template/)
+
