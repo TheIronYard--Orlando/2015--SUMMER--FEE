@@ -95,3 +95,10 @@ When you're all de-conflicted, push your results up to your fork and open a new 
 ### Shaving the Night Away
 
 Yep, time for some more high-quality **Yak Shaving**! Let's add another [Blueprints demo](http://tympanus.net/codrops/category/blueprints/) to our collection: `ViewModeSwitch`, which will demonstrate how CSS can be applied to the _same_ HTML to affect completely different layouts. We'll also revisit our friends `NestedAccordion` and `FullWidthTabs`, so take a look at them again. Once you've got the working code for `ViewModeSwitch` in your repo, gut the contents of the CSS and JS files, and replace the links in the HTML file with links to `styles.css` and `scripts.js`. Guess what we're doing _this_ week? What fun!
+
+## Links
+
+* [`Node` API](https://developer.mozilla.org/en-US/docs/Web/API/Node)
+  * [`Node.removeChild`](https://developer.mozilla.org/en-US/docs/Web/API/Node/removeChild)
+  * [`Node.appendChild`](https://developer.mozilla.org/en-US/docs/Web/API/Node/appendChild)
+  * [`Node.remove`](https://developer.mozilla.org/en-US/docs/Web/API/ChildNode/remove)
