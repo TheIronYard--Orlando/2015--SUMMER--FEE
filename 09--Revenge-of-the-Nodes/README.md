@@ -102,3 +102,26 @@ Yep, time for some more high-quality **Yak Shaving**! Let's add another [Bluepri
   * [`Node.removeChild`](https://developer.mozilla.org/en-US/docs/Web/API/Node/removeChild)
   * [`Node.appendChild`](https://developer.mozilla.org/en-US/docs/Web/API/Node/appendChild)
   * [`Node.remove`](https://developer.mozilla.org/en-US/docs/Web/API/ChildNode/remove)
+* [HTML `<template>` tag on MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/template)
+  * [_HTML's New Template Tag_ on HTML5Rocks.com](http://www.html5rocks.com/en/tutorials/webcomponents/template/)
+  * [_HTML5 Template Tag: Introduction_ by Rob Dodson](http://robdodson.me/html5-template-tag-introduction/)
+  * [_Introduction to the template elements_ on WebComponents.org](http://webcomponents.org/articles/introduction-to-template-element/)
+* [CSS `display` property on MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/display)
+* [BrowserSync Documentation](http://www.browsersync.io/docs/)
+  * [command line flags](http://www.browsersync.io/docs/command-line/)
+  * [xip.io](http://xip.io/)
+* **How do I add event listeners to dynamically created elements?**
+  * [Add Event Listener on Elements Created Dynamically](http://stackoverflow.com/questions/14258787/add-event-listener-on-elements-created-dynamically)
+  * [Difference between `addEventListener` and `attachEvent` (MSIE)?](http://stackoverflow.com/questions/2657182/correct-usage-of-addeventlistener-attachevent)
+* **Event Delegation**
+  * [_What is DOM Event Delegation?_ on StackOverflow](http://stackoverflow.com/questions/1687296/what-is-dom-event-delegation)
+  * [_JavaScrip Event Delegation is Easier Than You Think_ on SitePoint](http://www.sitepoint.com/javascript-event-delegation-is-easier-than-you-think/)
+  * [_Understanding Delegated JavaScript Events_ on CodePen](http://codepen.io/32bitkid/blog/understanding-delegated-javascript-events)
+  * [_How JavaScript Event Delegation Works_ by David Walsh](http://davidwalsh.name/event-delegate)
+  * [_Quick Tip: JavaScript Event Delegation in 4 Minutes_ on Tuts+ (jQuery)](http://code.tutsplus.com/tutorials/quick-tip-javascript-event-delegation-in-4-minutes--net-8961)
+  * [_Understanding Event Delegation_ on jQuery.com (jQuery)](https://learn.jquery.com/events/event-delegation/)
+* **How do I resolve conflicts in `git`?**
+  * [_Resolving Merge Conflicts_ on Github Help](https://help.github.com/articles/resolving-merge-conflicts/)
+  * [_`git merge` left `HEAD` marks in my files!_ on StackOverflow](http://stackoverflow.com/questions/10657315/git-merge-left-head-marks-in-my-files)
+  * [_Understanding `git` Conflict Markers_ on Wincent](https://wincent.com/wiki/Understanding_Git_conflict_markers)
+
