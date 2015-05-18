@@ -74,6 +74,24 @@
 
 ### Journal, Week 2
 
-### Student Roster
+Start on your next journal entry, reflecting on the things you've learned from last week. While the full article is due on Thursday again, you should have _something_ for tomorrow: an outline, some bullet points, even a super sloppy Rough Draft. You need to give us the **tl;dr** on your journal entry during homework review. The suggested topics from last week are still valid, but here are some others:
 
-### Setup
+* Describe the MVC pattern of software design, as you understand it.
+* Explain the principle of Encapsulation and give some examples from your own code.
+* How does scoping work in JavaScript programs? How do the `function` and `var` keywords affect it?
+
+### Reading CSS
+
+Did I promise no more definitions? Well, no more _JavaScript_ definitions... Now we've got CSS! First read [Learn Layout](http://learnlayout.com) -- don't sweat, it's less than an hour -- and make some notes on the CSS properties that are used. You should be able to get at least 10. Look them up in [the MDN CSS Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference) and start writing documentation for them in your `USERNAME.github.io` repo in a new file called `about/cascading-style-sheets.md`... So you never forget the _cascading_ part of that.
+
+For some more in-depth explanation of what CSS is, how it works, and what it's good for, check out [the MDN CSS Guide](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS). Stretch out your reading on that one, though, and practice using [SQ3R](http://en.m.wikipedia.org/wiki/SQ3R). You'll run across a lot of new properties and examples that you can use in your documentation, which we'll be adding to throughout the week.
+
+### Githubbing to Know You: Now It's Personal
+
+No two people can exist in this world without conflict. It's in our nature. So, too, with software. We learned some nifty conflict resolution techniques that might help you in future assignments... possibly in this one! Update your local copy of the roster from _upstream_ (you remember what that is, right?) and then try to merge in one of our problem children. You'll need to add their fork as a remote, fetch and attempt a merge. When you run into conflict (and you will), resolve the conflict with the techniques we discussed. If that doesn't work, ask the Internet; it may know something about conflict.
+
+When you're all de-conflicted, push your results up to your fork and open a new PR. We'll see how you did on Tuesday, and you'll get a _new_ assignment due on Thursday.
+
+### Shaving the Night Away
+
+Yep, time for some more high-quality **Yak Shaving**! Let's add another [Blueprints demo](http://tympanus.net/codrops/category/blueprints/) to our collection: `ViewModeSwitch`, which will demonstrate how CSS can be applied to the _same_ HTML to affect completely different layouts. We'll also revisit our friends `NestedAccordion` and `FullWidthTabs`, so take a look at them again. Once you've got the working code for `ViewModeSwitch` in your repo, gut the contents of the CSS and JS files, and replace the links in the HTML file with links to `styles.css` and `scripts.js`. Guess what we're doing _this_ week? What fun!
