@@ -88,7 +88,11 @@ CHECKLIST GOES HERE
 
 ### Journal, Week 2
 
+Begin the drafting process, like we've done the last two weeks. This time, as you think of topics that are related to your experience last week but that don't fit into your main journal, write them down in a file called `parking-lot.md` and start developing them with bulleted notes, an outline, stream of consciousness or just short rough drafts. You'll need some topics to pick from for next week... maybe even two.
+
+
 ### Githubbing to Know You
+Tonight, _try_ to create some merge conflicts: everyone edits _everyone else_. Experiment. Pick different parts of the files to edit and see what conflicts arise. By Thursday, though, _everyone_ should have _everything_ filled out and added to a PR. Let the train wrecks begin!
 
 ### Following the Blueprints
 
