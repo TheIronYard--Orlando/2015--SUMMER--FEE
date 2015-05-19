@@ -82,7 +82,68 @@
 ## Assignment
 
 ```markdown
-CHECKLIST GOES HERE
+* [ ] **Yak Shaving**
+  * _WIP Issue_ `10 -- Enter CSS`
+    * Link to PR in `USERNAME.github.io`
+    * Link to PR in `student-roster`
+    * Link to PR in `TIY-Assignments`
+  * _WIP Branch_
+    * `USRNAME.github.io:journal-week-2`
+    * `student-roster:maser`
+    * `TIY-Assignments:10--enter-CSS`
+  * _WIP Files_
+    * `USERNAME.github.io`
+      * your journal entry: `8.md`
+      * `about/cascading-style-sheets.md`
+    * `student-roster`
+      * `2015-05/FEE/*.md` :evil_smile:
+    * `TIY-Assignments`
+      * `NestedAccordion/`, `ViewModeSwitch/`
+        * `index.html`
+        * `styles.css`
+        * `scripts.js`
+* [ ] **Journal, Week 2**
+  * [ ] Rough draft!
+  * [ ] :+1: x2!
+  * [ ] Extra topics in `parking-lot.md`!
+* [ ] **Githubbing to Know You**
+  * [ ] Updated from `upstream:master`
+  * [ ] Edited _everyone_...
+  * [ ] Pushed and PR'd (izzat a word?)
+  * [ ] ZOMG CONFLICTS!
+  * [ ] **BEAST MODE** Resolve ALL THE THINGS!
+* [ ] **Following the Blueprints**
+  * [ ] Nested Accordion
+    * [ ] ...is nested!
+      * [ ] Colors make me feel pretty.
+      * [ ] Also, need better fonts.
+      * [ ] We don't need no stinkin' bullets!
+      * [ ] And look, hovering!
+      * [ ] Are those insets right?
+    * [ ] ...and clicky!
+      * [ ] jQuery in da HOWSS!
+      * [ ] Select those elements!
+      * [ ] And make 'em click till you bleed!
+  * [ ] View Mode Switch
+    * [ ] Just the basics...
+      * [ ] "Bubbles, what are you doing?" "Coloring..."
+      * [ ] Google Fonts FTW!
+      * [ ] That's no button...
+      * [ ] Border police: theyr're everywhere!
+      * [ ] Look, ma, I got icone!
+      * [ ] Gimme back my bullets... Wait.
+    * [ ] Grid Mode unlocked!
+      * [ ] Center ALL THE TINGS!
+      * [ ] Lay them out, side-by-side...
+      * [ ] **BEAST MODE** How about a breakpoint?
+    * [ ] List Mode unlocked!
+      * [ ] Same great image, smaller size!
+      * [ ] Lines are the new boxes...
+      * [ ] Vertical alignment is hard.
+      * [ ] **BEAST MODE** They changed something...
+    * [ ] Switch activated!
+      * [ ] List mode and grid mode, living together, end times stuff.
+      * [ ] Didn't you notice that the icon changed?
 ```
 
 ### Journal, Week 2
@@ -92,6 +153,10 @@ Begin the drafting process, like we've done the last two weeks. This time, as yo
 ### Githubbing to Know You
 
 Tonight, _try_ to create some merge conflicts: everyone edits _everyone else_. Experiment. Pick different parts of the files to edit and see what conflicts arise. By Thursday, though, _everyone_ should have _everything_ filled out and added to a PR. Let the train wrecks begin!
+
+#### BEAST MODE
+
+Can you _resolve_ all these conflicts and push the resolved code back to Github?
 
 ### Reading CSS
 
@@ -103,8 +168,12 @@ There are some additional CSS properties that we used or discussed in class, and
 
 ### Following the Blueprints
 
-
+Catch up and finish Nested Accordion tonight, then start working on View Mode Switch. Use the reference implementation to discover CSS properties you might not fully understand, but try to rely upon your notes from [Learn Layout](http://learnlayout.com), which really contains everything you need. Don't let yourself get stuck on the JavaScript portion; you can just change the classname from "grid" to "list" manually in the HTML file to keep being productive. Break down the problem into smaller steps, and don't worry about the breakpoints.
 
 #### BEAST MODE
 
+Did I say ignore the breakpoints? Well, maybe include one or two. [Media Queries](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Media_queries) aren't as hard as you think they are... they're just a little weird. Getting a head start here will help you get productive for next week.
+
 #### NIGHTMARE MODE
+
+There are at least _three_ breakpoints for each of those projects. Can you identify all three? Can you write Media Queries for all three? Can you write CSS to handle all three? I bet you can... You're unstoppable.
