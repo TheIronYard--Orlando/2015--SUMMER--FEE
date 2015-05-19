@@ -113,7 +113,7 @@
   * [ ] ZOMG CONFLICTS!
   * [ ] **BEAST MODE** Resolve ALL THE THINGS!
 * [ ] **Following the Blueprints**
-  * [ ] Nested Accordion
+  * [ ] **Nested Accordion**
     * [ ] ...is nested!
       * [ ] Colors make me feel pretty.
       * [ ] Also, need better fonts.
@@ -124,16 +124,16 @@
       * [ ] jQuery in da HOWSS!
       * [ ] Select those elements!
       * [ ] And make 'em click till you bleed!
-  * [ ] View Mode Switch
+  * [ ] **View Mode Switch**
     * [ ] Just the basics...
       * [ ] "Bubbles, what are you doing?" "Coloring..."
       * [ ] Google Fonts FTW!
       * [ ] That's no button...
-      * [ ] Border police: theyr're everywhere!
-      * [ ] Look, ma, I got icone!
-      * [ ] Gimme back my bullets... Wait.
+      * [ ] Border police: they're everywhere!
+      * [ ] Look, ma, I got icons!
+      * [ ] Gimme back my bullets... Wait, you can keep 'em.
     * [ ] Grid Mode unlocked!
-      * [ ] Center ALL THE TINGS!
+      * [ ] Center ALL THE THINGS!
       * [ ] Lay them out, side-by-side...
       * [ ] **BEAST MODE** How about a breakpoint?
     * [ ] List Mode unlocked!
@@ -177,3 +177,17 @@ Did I say ignore the breakpoints? Well, maybe include one or two. [Media Queries
 #### NIGHTMARE MODE
 
 There are at least _three_ breakpoints for each of those projects. Can you identify all three? Can you write Media Queries for all three? Can you write CSS to handle all three? I bet you can... You're unstoppable.
+
+## Resources
+
+* [HTML Color Reference on MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/color_value)
+* [`reset.css`](http://meyerweb.com/eric/tools/css/reset/) vs [`normalize.css`](http://necolas.github.io/normalize.css/)
+* [jQuery](http://jquery.com) ([docs](http://api.jquery.com)) vs [Zepto](http://zeptojs.com/)
+* [Bower](http://bower.io)
+  * [_What's So Great About Bower?_ on CSS Tricks](https://css-tricks.com/whats-great-bower/)
+  * [_Getting Started with Bower_ on Team Treehouse](http://blog.teamtreehouse.com/getting-started-bower)
+  * [_Meet Bower: A Package Manager for the Web_ on Tuts+](http://code.tutsplus.com/tutorials/meet-bower-a-package-manager-for-the-web--net-27774)
+* **How do I know that I'm doing any of this correctly?**
+  * [`jshint`](http://jshint.com/): [installation](http://jshint.com/install/)
+  * [`csshint`](http://csslint.net): [installation](https://github.com/CSSLint/csslint/wiki/Command-line-interface)
+  * _or get it all with [`atom-lint`](https://atom.io/packages/atom-lint)!_
