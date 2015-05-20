@@ -1,4 +1,4 @@
-# ASSIGNMENT TITLE
+# 11 -- The CSS of the Lambs
 
 ## Rituals (~1h 15m)
 
@@ -7,6 +7,16 @@
 * **Homework Review** (~30m)
 
 ## Agenda
+
+* [ ] **Planning in front of you...**
+  * Don't Panic: start drawing boxes.
+  * Break big problems down into smaller problems...
+* [ ] **Writing down the plan...**
+* [ ] **Following the plan...**
+* [ ] **When to deviate from the plan...*
+  * What happens at these breakpoints?
+  * How can I inspect _that_?
+  * What changes?
 
 ## Assignment
 
