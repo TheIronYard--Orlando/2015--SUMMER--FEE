@@ -95,3 +95,16 @@ If you're looking for _more_ work, weren't there some old assignments that you m
 
 ## Resources
 
+* **How do I visualize the history in my repository?**
+  * Check the [network graph for the repo](https://help.github.com/articles/about-repository-graphs/#network)
+  * Use a tool like [GitX](http://rowanj.github.io/gitx/) or [Source Tree](https://www.sourcetreeapp.com/)
+  * Just [tell `git` to show you](http://stackoverflow.com/questions/1838873/visualizing-branch-topology-in-git)... (see [the `glg` alias in Prezto](https://github.com/sorin-ionescu/prezto/blob/master/modules/git/alias.zsh#L107))
+* **Where can I get some slick icons for my project?**
+  * [The Noun Project](http://thenounproject.com) has lots of free-for-attribution icons
+  * Use [Unicode Symbols](http://en.wikipedia.org/wiki/Unicode)! See:
+    * [&what.com](http://amp-what.com)
+    * [unicode-table.com](http://unicode-table.com/en/)
+* **How do I use the [grid method of visual design](http://en.wikipedia.org/wiki/Grid_(graphic_design))?**
+  * First, [Don't Overthink It](https://css-tricks.com/dont-overthink-it-grids/)
+  * Next, maybe try [Creating Your Own Grid System](http://j4n.co/blog/Creating-your-own-css-grid-system) (scroll down, don't click the arrows... designers)
+  * You could [Generate your own Grid](http://www.responsivegridsystem.com/calculator/) (don't do this)
