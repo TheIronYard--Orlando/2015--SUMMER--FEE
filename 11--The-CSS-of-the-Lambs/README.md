@@ -12,15 +12,45 @@
 
 ```markdown
 * [ ] **Yak Shaving**
-  * _WIP Issue_: `XX -- Assignment Name -- YOUR NAME`
+  * _WIP Issue_: `11 -- The CSS of the Lambs`
   *  _WIP Branch_:
+    * `USERNAME.github.io:journal-week-2`
+    * `student-roster:master`
+    * `TIY-Assignments:11--css-of-the-lambs`
   * _WIP Files_:
-* [ ] **WRITING**
-  * checkpoints
-* [ ] **READING**
-  * checkpoints
-* [ ] **CODING**
-  * checkpoints
+    * `USERNAME.github.io`
+      * `about/cascading-style-sheet.md`
+      * `*.md` (journal entry)
+    * `student-roster`
+      * `2015-05/FEE/*.md`
+    * `TIY-Assignments`
+      * `FullWidthTabs/`
+        * `styles.css`
+        * `scripts.js`
+* [ ] **Journal, Week 2**
+  * [ ] Final Draft, First Revision
+  * [ ] Peer reviewed by 2 people
+  * [ ] Final Draft, 2nd Revision
+  * [ ] Peer reviewed by 2 people
+  * [ ] 2x :+1:s
+* [ ] **Reading CSS**
+  * [ ] Flag in the sand: `font-*` properties
+  * [ ] Flag in the sand: `text-*` properties
+  * [ ] Flag in the sand: `line-*` properties
+  * [ ] 2 new properties fully documented!
+  * [ ] 5 new properties!
+  * [ ] 8 new properties!
+  * [ ] 10 new properties!
+* [ ] **Following the Blueprints, Part 2**
+  * [ ] Mostly empty PR... YAK SHAVED.
+  * [ ] I love it when a plan comes together... or you make one.
+  * [ ] From lists to tabs!
+  * [ ] And clicky tabs, to boot!
+  * [ ] Who needs to see all those panels all the time?
+  * [ ] Well, maybe just one at a time...
+  * [ ] Initial page state: Activate Tab 1!
+  * [ ] **BEAST MODE** Media Queries! I have Media Queries!
+  * [ ] **NIGHTMARE MODE** I have _no_ more unfinished assignments...
 ```
 
 ### Journal, Week 2
@@ -47,11 +77,11 @@ When you're reviewing someone's work, get nit-picky. Give them bullet points tha
 
 #### BEAST MODE
 
-If you're looking for _more_ work, weren't there some old assignments that you may not have completed...? That `QuotesRotator` comes to mind. How about finishing up _those_ assignments, too?
+Man, those Media Queries. It's like they're calling to you. Idenfity the breakpoints you need, plan out the styles you'll need to override, and write some CSS!
 
 #### NIGHTMARE MODE
 
-Man, those Media Queries. It's like they're calling to you. Idenfity the breakpoints you need, plan out the styles you'll need to override, and write some CSS!
+If you're looking for _more_ work, weren't there some old assignments that you may not have completed...? That `QuotesRotator` comes to mind. How about finishing up _those_ assignments, too?
 
 ## Resources
 
