@@ -1,4 +1,4 @@
-# 10 -- Enter CSS
+# 10 -- Enter the CSS
 
 ## Rituals (~1h 15m)
 
