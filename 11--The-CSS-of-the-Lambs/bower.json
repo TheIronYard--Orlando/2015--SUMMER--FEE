@@ -1,0 +1,20 @@
+{
+  "name": "11--The-CSS-of-the-Lambs",
+  "version": "0.0.0",
+  "homepage": "https://github.com/TheIronYard--Orlando/2015--SUMMER--FEE",
+  "authors": [
+    "David Rogers <david@theironyard.com>"
+  ],
+  "license": "CC0",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4"
+  }
+}
