@@ -32,7 +32,32 @@ Well, we've exhausted all of our categories now, right? Time to make some more! 
 Come on, you didn't think that I'd forget, did you? This week is all about writing HTML, so you'll need to use [the HTML section of MDN](https://developer.mozilla.org/en-US/docs/Web/HTML) (or the same section in Dash) to research and document the tags you'll meet in `about/html.md` (no, I won't make you write it out). Remember, this is _your_ reference, first and foremost, but it's also a part of your portfolio! Hiring managers _love_ to see self-learning resources...!
 
 * Explain the basic structure of a tag. Include a dissection of the non-word characters used (like brackets, etc), the words inside the brackets, why some tags have other tags in them and how to write them with and without contents.
-* Next, dissect the tags used in `index.html` in the [HTML5 Boilerplate](html5boilerplate.com) project. Don't gloss over those weirdo ones like `<!DOCTYPE>` or `<!-- ... -->` with contents (check out [Conditional Comments on Wikipedia](http://en.m.wikipedia.org/wiki/Conditional_comment) for some help).
+* Next, dissect the tags used in `index.html` in the [HTML5 Boilerplate](http://html5boilerplate.com) project. Don't gloss over those weirdo ones like `<!DOCTYPE>` or `<!-- ... -->` with contents (check out [Conditional Comments on Wikipedia](http://en.m.wikipedia.org/wiki/Conditional_comment) for some help).
 * Categorize the tags you document as block-level or inline tags and identify the type of content that is valid within them, if any. Include documentation for any included attributes (like `checked` for `<input type="checkbox">`).
 
 _Don't Repeat Yourself, but be thorough!_ Expand your entries if you run across a different usage of a tag you've already documented. There are three attributes that apply universally to _all_ tags. As you identify them, move them into their own section at the top of your document.
+
+### Shaving Private Ryan
+
+Yay! New Blueprints to work on! Create new folders for `VerticalTimeline` and `MultiColumnForm` with initialized `bower.json` files. Yeah, that's it. Fun! Start taking a look at those reference implementations. You'll need the head start.
+
+#### BEAST MODE
+
+We're going to start with [HTML5 Boilerplate](http://html5boilerplate.com) for these assignments, so you could always get _that_ setup while you're shaving. I mean, you need to read the `index.html` _anyway_, right?
+
+### Game Over, Man!
+
+For our big project this week, we'll be building a chess-playing application... well, kind of. Start by creating a _new_ repo in Github called `TIY-Chessboard` with a basic `README.md` file and `CC0` license (or whatever, if you have opinions). Read [the doubly-indexed `Array` example from MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array#Creating_a_two-dimensional_array).
+
+That's kind of a poor model for a chessboard, but it's useful as a start. Let's make it a little more... robust. Create a file called `scripts/models.js` and put the following in it:
+
+* use an IIFE to wrap the module
+* use the Revealing Module pattern to expose:
+  * a function named `initBoard` that returns a doubly-indexed array representing a chessboard
+  * a function named `move` that accepts parameters `board`, `fromX`, `fromY`, `toX` and `toY`
+  * a property named `board` that is initially empty AKA `null`
+* define an _internal_ variable named `moves` that is an empty `Array`
+
+#### BEAST MODE
+
+Enumerate the moves from [Kasparov v Karpov (1984)](http://www.chess.com/games/view?id=353900) in code comments within the `moves` array. Document the algabraic notation for each move and translate into `fromX`, `fromY`, `toX`, and `toY` for our doubly-indexed `Array`.
