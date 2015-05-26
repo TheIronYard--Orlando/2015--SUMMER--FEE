@@ -15,6 +15,50 @@
 ## Assignment
 
 ```markdown
+* [ ] **Yak Shaving**
+  * _WIP Issue_: `12 -- The Passion of the CSS`
+  *  _WIP Branch_:
+    * [ ] `USERNAME.github.io:journal-week-3`
+    * [ ] `student-roster:master`
+    * [ ] `TIY-Assignments:12--passion-of-the-css`
+    * [ ] `TIY-Chessboard:master`
+  * _WIP Files_:
+    * `USERNAME.github.io`
+      * [ ] `about/html.md`
+      * [ ] `*.md` (reflective journal entry)
+      * [ ] `*.md` (tutorial journal entry)
+    * `student-roster`
+      * `2015-05/TEMPLATE.md`
+    * `TIY-Assignments`
+      * `VerticalTimeline`
+        * `bower.json`
+      * `MultiColumnForm`
+        * `bower.json`
+     * `TIY-Chessboard`
+       * `scripts/models.js`
+* [ ] **Journal, Week 3**
+  * [ ] Rough draft - reflective 
+  * [ ] Rough draft - tutorial 
+  * [ ] Both journals peer reviewed by 2 people (2x :+1:s)
+  * [ ] Final draft - reflective AND tutorial 
+* [ ] **Reading HTML**
+  * [ ] Flag in the sand: `about/html.md`
+  * [ ] Explain the structure of the tag
+  * [ ] Non-word characters of the tag
+  * [ ] Review and add tags from HTML5 Boilerplate `index.html`
+* [ ] **Student Roster**
+  * [ ] New category / section to template
+  * [ ] PR to `TIY--Orlando:master`
+* [ ] **The Blueprint to success should not involve Yak Shaving**
+  * [ ] New folders for `ViewTimeline` and `MultiColumnForm`
+  * [ ] Initialized bower.json file
+  * [ ] **BEAST MODE** Set up index.html using HTML5 Boilerplate
+* [ ] **TIY Chessboard**
+  * [ ] We've got functions! `initBoard` `move`
+  * [ ] And a property! `property`
+  * [ ] Working on night `moves`
+  * [ ] Catalan Opening
+  * [ ] **BEAST MODE** Kasparov v Karpov ('84)
 ```
 
 ### Journal, Week 3+!
