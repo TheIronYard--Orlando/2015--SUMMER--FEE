@@ -97,9 +97,13 @@
 * [ ] **Game Over, Man** -- All setup, right? RIGHT?
 ```
 
-### WRITING ASSIGNMENT
+### Journal, Week 3
 
-### READING ASSIGNMENT
+Why are you reading this? 2x journal entry! Chop chop!
+
+### Reading HTML
+
+Easy part: list elements. You know `<ul>` and `<ol>`, but are there others? Make sure you get the tags that go _inside_ the list elements... In order to help you with your homework, start reading up on `<form>` elements and that whole mixed up family. 
 
 ### CODING ASSIGNMENT
 
