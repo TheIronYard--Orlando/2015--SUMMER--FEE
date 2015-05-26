@@ -62,3 +62,9 @@ That's kind of a poor model for a chessboard, but it's useful as a start. Let's 
 #### BEAST MODE
 
 Enumerate the moves from [Kasparov v Karpov (1984)](http://www.chess.com/games/view?id=353900) in code comments within the `moves` array. Document the algabraic notation for each move and translate into `fromX`, `fromY`, `toX`, and `toY` for our doubly-indexed `Array`.
+
+## Resources
+
+* **What's a property?**
+  * [_Working with objects_ on MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects)
+  * [_Variables vs Properties in JavaScript_ by Angus Croll](https://javascriptweblog.wordpress.com/2010/08/09/variables-vs-properties-in-javascript/)
