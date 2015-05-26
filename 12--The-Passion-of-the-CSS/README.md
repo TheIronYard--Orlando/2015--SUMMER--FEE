@@ -57,6 +57,7 @@ That's kind of a poor model for a chessboard, but it's useful as a start. Let's 
   * a function named `move` that accepts parameters `board`, `fromX`, `fromY`, `toX` and `toY`
   * a property named `board` that is initially empty AKA `null`
 * define an _internal_ variable named `moves` that is an empty `Array`
+* enumerate the moves from [the Catalan Opening: Closed Variation](http://www.chess.com/opening/eco/E06_Catalan_Opening_Closed_Variation) as code comments _inside_ `moves`
 
 #### BEAST MODE
 
