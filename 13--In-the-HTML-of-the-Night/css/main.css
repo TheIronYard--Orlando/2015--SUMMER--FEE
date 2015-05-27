@@ -95,9 +95,29 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+.timeline {
+  margin: 0; padding: 0;
+  list-style: none;
+}
+
+.timeline li::after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+
+.timeline time {
+  display: inline-block;
+  float: left; width: 38%;
+}
+
 .timeline article {
+  display: inline-block;
+  float: left; width: 62%;
+  box-sizing: border-box;
   color: white;
-  background-color: #6CBFEE
+  background-color: #6CBFEE;
+  padding: 2ex 2em;
 }
 
 .timeline :nth-child(odd) article {
