@@ -13,9 +13,13 @@
 * [ ] Create a `package.json` with `npm init`
 * [ ] Record my dependencies: `npm link browser-sync --save`
 * [ ] Tell `npm` how to run `browser-sync`...
-  * [ ] edit `package.json`
-  * [ ] add `"start"` to `"scripts"` dictionary
-* [ ] Now run `npm run-scripts start` AKA `npm start`
+ * [ ] edit `package.json`
+ * [ ] add `"start"` to `"scripts"` dictionary
+ * [ ] run `npm run-scripts start` AKA `npm start`
+* [ ] I guess we need some boilerplate...
+ * `npm install -g yo generator-h5bp`
+ * `yo h5bp` + some questions
+ * `git status` and _woah_
 
 ### Let's build that [Vertical Timeline](http://tympanus.net/Blueprints/VerticalTimeline/)!
 
@@ -23,21 +27,25 @@
   * [ ] Sktich the breakpoints...
   * [ ] Markup the specs...
   * [ ] Discuss the data model...
+* [ ] Time for a [MF'g Website](http://motherfuckingwebsite.com)!
 * [ ] Okay, now for CSS... No, CSS sucks!
   * `npm install -g node-sass`
   * `node-sass styles.scss`
   * `npm link --save node-sass`
+* [ ] Awesome, now let's never run _that_ again...
   * edit `package.json`
   * `npm run-script sass`
-* Yeoman & H5BP
-    * `npm install -g yo generator-h5bp`
-    * `yo h5bp` + some questions
-* Bower + Wiredep:
-    * `npm install -g wiredep`
-    * add comments to `index.html`
-    * `wiredep -s index.html`
-    * edit `package.json`: `bower`, `postbower`
-    * `npm run bower`
+  * so which file do we commit?
+
+### BONUS: What's with that @$$-old version of jQuery?
+
+* use `bower` to install better ones
+* and let `wiredep` wire them up for you!
+ * `npm install -g wiredep`
+ * `npm link --save wiredep`
+ * add comment markers to `index.html`
+ * `wiredep -s index.html`
+* automate with `.bowerrc` or `npm run-scripts`
 
 ## Assignment
 
