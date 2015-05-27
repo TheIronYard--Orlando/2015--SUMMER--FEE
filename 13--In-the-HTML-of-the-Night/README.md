@@ -45,7 +45,7 @@
  * `npm link --save wiredep`
  * add comment markers to `index.html`
  * `wiredep -s index.html`
-* automate with `.bowerrc` or `npm run-scripts`
+* [automate with `.bowerrc`](https://github.com/bower/bower/blob/master/HOOKS.md) or `npm run-scripts` (as above)
 
 ## Assignment
 
