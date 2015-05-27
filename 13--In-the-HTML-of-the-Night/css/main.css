@@ -100,6 +100,18 @@ textarea {
   list-style: none;
 }
 
+.timeline li {
+  padding-bottom: 2ex;
+  position: relative;
+}
+
+.timeline li::before {
+  content: '\2708';
+  position: absolute;
+  left: 50%;
+  font-size: 200%;
+}
+
 .timeline li::after {
   content: " ";
   display: table;
@@ -108,7 +120,12 @@ textarea {
 
 .timeline time {
   display: inline-block;
-  float: left; width: 38%;
+  float: left; width: 14%;
+  margin-right: 24%;
+  text-align: right;
+}
+.timeline time > * {
+  display: block;
 }
 
 .timeline article {
