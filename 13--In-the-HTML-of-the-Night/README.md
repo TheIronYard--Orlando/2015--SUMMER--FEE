@@ -182,3 +182,20 @@ Aside from the marked-up specs, this layout isn't due until the end of the week.
 They're just `<form>` elements, right? Didn't you just learn about those? You got this... Start with a MF'g form.
 
 ## Resources
+
+* **Where can I get some slick icons for my project?**
+  * [The Noun Project](http://thenounproject.com) has lots of free-for-attribution icons
+  * Use [Unicode Symbols](http://en.wikipedia.org/wiki/Unicode)! See:
+    * [&what.com](http://amp-what.com)
+    * [unicode-table.com](http://unicode-table.com/en/)
+  * [We Love Icon Fonts!](http://weloveiconfonts.com/)
+* **What can I use for filler text and placeholder images?**
+  * [Meet the Ipsums!](http://meettheipsums.com/)
+  * [Lorem Pixel](http://lorempixel.com)
+  * [{placekitten}](http://placekitten.com)
+  * [Dummy Images](http://dummyimage.com/)
+* **How do I use the [grid method of visual design](http://en.wikipedia.org/wiki/Grid_(graphic_design))?**
+  * First, [Don't Overthink It](https://css-tricks.com/dont-overthink-it-grids/)
+  * Next, maybe try [Creating Your Own Grid System](http://j4n.co/blog/Creating-your-own-css-grid-system) (scroll down, don't click the arrows... designers)
+  * You could [Generate your own Grid](http://www.responsivegridsystem.com/calculator/) (don't do this)
+  * Don't forget to use [The Golden Ratio](http://en.wikipedia.org/wiki/Golden_ratio)

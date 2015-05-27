@@ -104,6 +104,7 @@ If you're looking for _more_ work, weren't there some old assignments that you m
   * Use [Unicode Symbols](http://en.wikipedia.org/wiki/Unicode)! See:
     * [&what.com](http://amp-what.com)
     * [unicode-table.com](http://unicode-table.com/en/)
+  * [We Love Icon Fonts!](http://weloveiconfonts.com/)
 * **How do I use the [grid method of visual design](http://en.wikipedia.org/wiki/Grid_(graphic_design))?**
   * First, [Don't Overthink It](https://css-tricks.com/dont-overthink-it-grids/)
   * Next, maybe try [Creating Your Own Grid System](http://j4n.co/blog/Creating-your-own-css-grid-system) (scroll down, don't click the arrows... designers)
