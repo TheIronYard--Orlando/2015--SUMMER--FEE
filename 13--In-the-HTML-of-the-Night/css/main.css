@@ -95,11 +95,14 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-/* Guess where OUR CSS goes? */
+.timeline article {
+  color: white;
+  background-color: #6CBFEE
+}
 
-
-
-
+.timeline :nth-child(odd) article {
+  background-color: #0393CE
+}
 
 
 
