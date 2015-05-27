@@ -6,7 +6,38 @@
 * **Three Little Things** (~30m)
 * **Homework Review** (~30m)
 
-## Agenda
+## Tools on Tuesday
+
+### Yak Shaving: Never run `browser-sync` again...
+
+* [ ] Create a `package.json` with `npm init`
+* [ ] Record my dependencies: `npm link browser-sync --save`
+* [ ] Tell `npm` how to run `browser-sync`...
+  * [ ] edit `package.json`
+  * [ ] add `"start"` to `"scripts"` dictionary
+* [ ] Now run `npm run-scripts start` AKA `npm start`
+
+### Let's build that [Vertical Timeline](http://tympanus.net/Blueprints/VerticalTimeline/)!
+
+* [ ] Start with a plan...
+  * [ ] Sktich the breakpoints...
+  * [ ] Markup the specs...
+  * [ ] Discuss the data model...
+* [ ] Okay, now for CSS... No, CSS sucks!
+  * `npm install -g node-sass`
+  * `node-sass styles.scss`
+  * `npm link --save node-sass`
+  * edit `package.json`
+  * `npm run-script sass`
+* Yeoman & H5BP
+    * `npm install -g yo generator-h5bp`
+    * `yo h5bp` + some questions
+* Bower + Wiredep:
+    * `npm install -g wiredep`
+    * add comments to `index.html`
+    * `wiredep -s index.html`
+    * edit `package.json`: `bower`, `postbower`
+    * `npm run bower`
 
 ## Assignment
 
