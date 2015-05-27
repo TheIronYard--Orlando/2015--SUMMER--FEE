@@ -1,0 +1,23 @@
+{
+  "name": "13--In-the-HTML-of-the-Night",
+  "version": "0.0.0",
+  "description": "## Rituals (~1h 15m)",
+  "main": "index.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "browser-sync start --server --directory --files='index.html,css/main.css,js/main.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TheIronYard--Orlando/2015--SUMMER--FEE"
+  },
+  "author": "David Rogers <david@theironyard.com>",
+  "license": "CC0",
+  "bugs": {
+    "url": "https://github.com/TheIronYard--Orlando/2015--SUMMER--FEE/issues"
+  },
+  "homepage": "https://github.com/TheIronYard--Orlando/2015--SUMMER--FEE"
+}
