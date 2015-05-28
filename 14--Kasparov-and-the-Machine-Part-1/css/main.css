@@ -95,8 +95,58 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+   .container {
+     border: 1px solid;
+     width: 80%; margin: 0 auto;
+     min-width: 1in;
+     max-width: 3in;
+   }
 
+   .chessboard {
+   }
+   /* Row Styles */
+   .chessboard .row {
+     margin: 0; padding: 0;
+     position: relative;
+     clear: both;
+   }
+   .chessboard .row::before,
+   .chessboard .row::after {
+     font-size: 500%;
+     position: absolute;
+   }
+   .chessboard .row::before {
+     right: 100%;
+   }
+   .chessboard .row::after {
+     left: 100%;
+   }
+   .chessboard .rank-2::before,
+   .chessboard .rank-2::after {
+     content: '2';
+   }
+   .chessboard .rank-1::before,
+   .chessboard .rank-1::after {
+     content: '1';
+   }
+   /* END Row Styles */
 
+   .chessboard .square {
+     background-color: cornflowerblue;
+     display: block;
+     width: 50%; padding-bottom: 50%;
+     outline: 1px solid red;
+     float:left;
+   }
+   .chessboard .row:nth-child(even) .square:nth-child(even) {
+     background-color: cornflowerblue;
+   }
+   .chessboard .row:nth-child(even) .square:nth-child(odd) {
+     background-color: lightgray;
+   }
+   .chessboard .square:nth-child(even) {
+     background-color: lightgray;
+   }
 
 
 
