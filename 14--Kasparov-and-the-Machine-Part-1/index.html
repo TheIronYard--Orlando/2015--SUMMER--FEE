@@ -23,17 +23,70 @@
           min-width: 1in;
           max-width: 3in;
         }
-        .chessboard.square {
+
+        .chessboard {
+        }
+        /* Row Styles */
+        .chessboard .row {
+          margin: 0; padding: 0;
+          position: relative;
+          clear: both;
+        }
+        .chessboard .row::before,
+        .chessboard .row::after {
+          font-size: 500%;
+          position: absolute;
+        }
+        .chessboard .row::before {
+          right: 100%;
+        }
+        .chessboard .row::after {
+          left: 100%;
+        }
+        .chessboard .rank-2::before,
+        .chessboard .rank-2::after {
+          content: '2';
+        }
+        .chessboard .rank-1::before,
+        .chessboard .rank-1::after {
+          content: '1';
+        }
+        /* END Row Styles */
+
+        .chessboard .square {
           background-color: cornflowerblue;
-          width: 100%; padding-bottom: 100%;
+          display: block;
+          width: 50%; padding-bottom: 50%;
+          outline: 1px solid red;
+          float:left;
+        }
+        .chessboard .row:nth-child(even) .square:nth-child(even) {
+          background-color: cornflowerblue;
+        }
+        .chessboard .row:nth-child(even) .square:nth-child(odd) {
+          background-color: lightgray;
+        }
+        .chessboard .square:nth-child(even) {
+          background-color: lightgray;
         }
       </style>
 
       <!-- big @$$ container... -->
       <main class="container">
-        <!-- single square -->
-        <div class="chessboard square"></div>
-      </main><!-- .container -->
 
+        <div class="chessboard">
+          <ul class="row rank-2">
+            <li class="square file-a">
+              <!-- single square -->
+            </li>
+            <li class="square file-b"></li>
+          </ul><!-- .row -->
+          <ul class="row rank-1">
+            <li class="square file-a"></li>
+            <li class="square file-b"></li>
+          </ul><!-- .row -->
+        </div><!-- .chessboard -->
+
+      </main><!-- .container -->
     </body>
 </html>
