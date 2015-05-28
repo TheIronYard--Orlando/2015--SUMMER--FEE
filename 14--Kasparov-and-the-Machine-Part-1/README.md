@@ -183,4 +183,6 @@ When you log the last move, subsequent clicks on the "next" button shouldn't do 
 
 ## Resources
 
-* LINK
+* **What does a chessboard look like, and how is it labeled?**
+  * [_Chessboard_ on Wikipedia](http://en.wikipedia.org/wiki/Chessboard)
+
