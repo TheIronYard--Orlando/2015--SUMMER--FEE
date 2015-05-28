@@ -199,3 +199,10 @@ They're just `<form>` elements, right? Didn't you just learn about those? You go
   * Next, maybe try [Creating Your Own Grid System](http://j4n.co/blog/Creating-your-own-css-grid-system) (scroll down, don't click the arrows... designers)
   * You could [Generate your own Grid](http://www.responsivegridsystem.com/calculator/) (don't do this)
   * Don't forget to use [The Golden Ratio](http://en.wikipedia.org/wiki/Golden_ratio)
+* **How do I pick a version number?**
+  * Read [Semantic Versioning](http://semver.org)
+  * When in doubt, start with `0.0.0`
+* **What _else_ can `npm` do?**
+  * [_How to use `npm` as a Build Tool_ by Keith Cirkel](http://blog.keithcirkel.co.uk/how-to-use-npm-as-a-build-tool/)
+  * [`npm run-script`](https://docs.npmjs.com/cli/run-script)
+  * [`npm-scripts(7)`](https://docs.npmjs.com/misc/scripts): [Hook Scripts](https://docs.npmjs.com/misc/scripts#hook-scripts)
