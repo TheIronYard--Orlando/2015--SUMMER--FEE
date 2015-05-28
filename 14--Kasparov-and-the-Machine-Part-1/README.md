@@ -8,6 +8,16 @@
 
 ## How about a nice game of chess?
 
+* [ ] Planning in front of you...
+  * [ ] Skitch that stuff...
+  * [ ] What are our boxes?
+  * [ ] Does this look familiar?
+* [ ] Building the View...
+  * [ ] just _1_ cell
+  * [ ] 2x2 is easier
+  * [ ] 4x4 is harder
+  * [ ] let's make some pieces
+
 ## Assignment
 
 ```markdown
