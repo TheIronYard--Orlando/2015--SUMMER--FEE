@@ -110,12 +110,12 @@ All the PRs that are gonna land have landed. Here are your targets. Happy huntin
 |--------------|--------------|
 | Epicurean306 | gatorpazz    |
 | JessyRiordan | MStaehling   |
-| sjoyal       | gatorpazz    |
+| sjoyal       | pope410211   |
 | MStaehling   | melrodbos    |
-| jorgehjr84   | jorgehjr84   |
+| jorgehjr84   | JessyRiordan |
 | pcreglow     | jorgehjr84   |
 | melrodbos    | kmattiko     |
-| pope410211   | gatorpazz    |
+| pope410211   | sjoyal       |
 | kmattiko     | Epicurean306 |
 | gatorpazz    | pcreglow     |
 
@@ -128,26 +128,26 @@ All the PRs that are gonna land have landed. Here are your targets. Happy huntin
 | sjoyal       | pope410211   |
 | MStaehling   | pcreglow     |
 | jorgehjr84   | Epicurean306 |
-| pcreglow     | Epicurean306 |
-| melrodbos    | pcreglow     |
+| pcreglow     | jorgehjr84   |
+| melrodbos    | MStaehling   |
 | pope410211   | JessyRiordan |
 | kmattiko     | melrodbos    |
-| gatorpazz    | pcreglow     |
+| gatorpazz    | kmattiko     |
 
 #### Didn't you make some _new_ categories?
 
-| you ask      | they tell  |
-|--------------|------------|
-| Epicurean306 | sjoyal     |
-| JessyRiordan | jorgehjr84 |
-| sjoyal       | pope410211 |
-| MStaehling   | sjoyal     |
-| jorgehjr84   | pope410211 |
-| pcreglow     | kmattiko   |
-| melrodbos    | sjoyal     |
-| pope410211   | kmattiko   |
-| kmattiko     | jorgehjr84 |
-| gatorpazz    | pope410211 |
+| you ask      | they tell    |
+|--------------|--------------|
+| Epicurean306 | sjoyal       |
+| JessyRiordan | jorgehjr84   |
+| sjoyal       | JessyRiordan |
+| MStaehling   | melrodbos    |
+| jorgehjr84   | pcreglow     |
+| pcreglow     | kmattiko     |
+| melrodbos    | Epicurean306 |
+| pope410211   | gatorpazz    |
+| kmattiko     | MStaehling   |
+| gatorpazz    | pope410211   |
 
 ### Following the Blueprints
 
