@@ -1,0 +1,20 @@
+{
+  "name": "14--Kasparov-and-the-Machine-Part-1",
+  "version": "0.0.0",
+  "description": "## Rituals (~1h 15m)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "browser-sync start --server --files='index.html,css/*.css,js/*.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TheIronYard--Orlando/2015--SUMMER--FEE"
+  },
+  "author": "David Rogers <david@theironyard.com>",
+  "license": "CC0",
+  "bugs": {
+    "url": "https://github.com/TheIronYard--Orlando/2015--SUMMER--FEE/issues"
+  },
+  "homepage": "https://github.com/TheIronYard--Orlando/2015--SUMMER--FEE"
+}
