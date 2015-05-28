@@ -17,7 +17,9 @@
  * [ ] add `"start"` to `"scripts"` dictionary
  * [ ] run `npm run-scripts start` AKA `npm start`
 * [ ] I guess we need some boilerplate...
- * `npm install -g yo generator-h5bp`
+ * `npm install -g yo generator-h5bp` gets:
+  * [Yeoman](http://yeoman.io)
+  * [`generator-h5bp`](https://github.com/h5bp/generator-h5bp)
  * `yo h5bp` + some questions
  * `git status` and _woah_
 
