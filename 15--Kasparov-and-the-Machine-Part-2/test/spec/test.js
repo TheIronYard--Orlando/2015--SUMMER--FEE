@@ -3,10 +3,10 @@
 (function () {
   'use strict';
 
-  describe('Give it some context', function () {
-    describe('maybe a bit more context here', function () {
-      it('should run here few assertions', function () {
-          assert(false);
+  describe('Chess Explorer', function () {
+    describe('the `chess` module', function () {
+      it('should exist', function () {
+          expect(window.chess).to.exist;
       });
     });
   });
