@@ -4,7 +4,7 @@
   "description": "## Rituals (~1h 15m)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "browser-sync start --server --files='js/*.js,test/index.html,test/spec/**/*.js' --startPath test/index.html",
     "start": "browser-sync start --server --files='index.html,css/*.css,js/*.js'"
   },
   "repository": {
