@@ -6,30 +6,21 @@ function _error {
 
 function _usage {
   cat <<'USAGE'
-usage: create.sh XX--Assignment-Name
+usage: create [-M] XX--Assignment-Name
 
   create a `README.md` file in `XX--Assignment-Name/` copying the contents of
-  `TEMPLATE.md`
+  `.template/TUESDAY.md` or the file named `$TEMPLATE`, if provided.
 USAGE
 }
 
-
-args=`getopt M $*`
-if [[ $? != 0 ]]; then
-  _error 'invalid argument'
-  _usage; exit 1
-fi
-set -- $args
 
 if [[ $# -lt 1 ]]; then
   _error 'missing argument'
   _usage; exit 1
 fi
 
-TEMPLATE=${TEMPLATE:-'TUESDAY.md'}
-
 git checkout -b $1:l \
-  && ginstall -vCD .template/$TEMPLATE $1/README.md \
+  && ginstall -vCD .templates/${TEMPLATE:-'TUESDAY.md'} $1/README.md \
   && git add $1 \
   && git status -s
 
