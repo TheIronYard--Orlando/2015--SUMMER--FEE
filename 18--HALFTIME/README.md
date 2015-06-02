@@ -38,6 +38,7 @@
       * `NestedAccordion/`
       * `QuotesRotator/`
       * `VerticalTimeline/`
+      * `ViewModeSwitch/`
       * `.gitignore`
       * `package.json`
       * `bower.json`
@@ -82,13 +83,13 @@ More instructions tomorrow!
 
 ### Blueprints Everywhere!
 
-I've given you five different obstacle courses: `FullWidthTabs`, `MultiColumnForm`, `NestedAccordion`, `QuotesRotator`, and `VerticalTimeline`. Start by committing a _complete deletions_ of those projects into `master`. You heard me: `git rm -rf TIY-Assignments/*/`. Kill those suckers and push your changes. Almost feels good, doesn't it?
+I've given you six different obstacle courses: `FullWidthTabs`, `MultiColumnForm`, `NestedAccordion`, `QuotesRotator`, `VerticalTimeline`, `ViewModeSwitch`. Start by committing a _complete deletions_ of those projects into `master`. You heard me: `git rm -rf TIY-Assignments/*/`. Kill those suckers and push your changes. Almost feels good, doesn't it?
 
-Pick three of the five to rebuild. Create a branch called `halftime` and get to shaving those yaks. Start with H5BP, Bower and NPM. Tell `git` to ignore the package folders. Create a `specs/` folder in each, Skitch the layout and identify the breakpoints. Write your plan down for each project in a separate issue in your repo. Checklists are encouraged. All of your tools are at your disposal.
+Pick three of the six to rebuild. Create a branch called `halftime` and get to shaving those yaks. Start with H5BP, Bower and NPM. Tell `git` to ignore the package folders. Create a `specs/` folder in each, Skitch the layout and identify the breakpoints. Write your plan down for each project in a separate issue in your repo. Checklists are encouraged. All of your tools are at your disposal.
 
 #### BEAST MODE
 
-Didn't I say there were five of these? _Yep._ Three breakpoints each? _Most likely._ **bringgit.**
+Didn't I say there were six of these? _Yep._ Three breakpoints each? _Most likely._ **bringgit.**
 
 ## Resources
 
