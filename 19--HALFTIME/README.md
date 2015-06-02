@@ -28,9 +28,15 @@
   * [ ] First feature created!
   * [ ] First feature merged!
 * **Blueprints Everywhere!**
-  * [ ] Project A, created First Feature!
-  * [ ] Project A, merged First Feature!
-  * [ ] Project B, created First Feature!
+  * [ ] Project A: created first feature!
+  * [ ] Project A: merged first feature!
+  * [ ] Project B: created first feature!
+  * [ ] Project B: merged first feature!
+  * [ ] Project C: created first feature!
+  * [ ] Project C: merged first feature!
+  * [ ] **BEAST MODE** Started features on _all_ projects!
+  * [ ] **BEAST MODE** Merged features on _all_ projects!
+  * [ ] **BEAST MODE** Journal entry draft...
 ```
 
 ### HALFTIME Journal!
@@ -47,7 +53,7 @@ This build-out not enough for you? Well, this is a highly valuable experience yo
 
 ### Blueprints Everywhere!
 
-Working from your `specs/`, break down each layout into small chunks of work -- features -- like the icon element in `VerticalTimeline` or switching the tabs in `FullWidthTabs`. **Bold** the features in your checklist and create individual issues for each feature. Link them to the original issue and put checklists on each.
+Working from your `specs/`, break down each layout into small chunks of work -- features -- like the icon element in `VerticalTimeline` or switching the tabs in `FullWidthTabs`. **Bold** the features in your checklist and _create individual issues for each feature_. Link them to the original issue and put checklists on each.
 
 Get to work on your features by creating a separate branch for each. Name each branch `feature/PROJECT-NAME/FEATURE-NAME` where `PROJECT-NAME` is the layout (`QuotesRotator`, `NestedAccordion`) and `FEATURE-NAME` is the feature (`switching-tabs`, `floating-icon`). _Really_ don't be afraid of opening multiple feature branches on this one! Since the projects are self-contained, if you get stuck on a feature of one, switch to another... _and switch branches!_
 
