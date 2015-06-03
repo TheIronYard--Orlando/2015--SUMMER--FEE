@@ -1,4 +1,4 @@
-18 -- HALFTIME!
+20 -- HALFTIME!
 
 * **Standup Meeting** (~15m)
 * **Parking Lot Topics** (~15m)
