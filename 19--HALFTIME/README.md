@@ -18,15 +18,34 @@
 ## Assignment
 
 ```markdown
-* [x] **Yak Shaving**
+* [ ] **Yak Shaving**
   * _WIP Issue_: `HALFTIME -- YOUR NAME` (same)
-  *  _WIP Branch_: (same)
-    * `USERNAME.github.io:remodeling`
-    *  `TIY-Assignments:halftime`
-  * _WIP Files_ (same)
+  *  _WIP Branch_:
+    * `USERNAME.github.io`
+      * `remodeling`
+      * `feature/FEATURE-NAME`
+    * `TIY-Assignments`
+      * `feature/PROJECT-NAME/FEATURE-NAME`
+  * _WIP Files_:
+    * `USERNAME.github.io`
+      * `index.html`
+      * `css/main.css`
+      * `js/main.js`
+    * `TIY-Assignments`
+      * `PROJECT-NAME/`
+        * `index.html`
+        * `css/main.css`
+        * `js/main.js`
 * **HALFTIME Journal**
-  * [ ] First feature created!
-  * [ ] First feature merged!
+  * [ ] First feature:
+    * [ ] Committed and pushed!
+    * [ ] PR open!
+    * [ ] PR merged!
+  * [ ] Second feature:
+    * [ ] Committed and pushed!
+    * [ ] PR open!
+    * [ ] PR merged!
+  * [ ] **BEAST MODE** Journal entry draft...
 * **Blueprints Everywhere!**
   * [ ] Project A: created first feature!
   * [ ] Project A: merged first feature!
@@ -36,7 +55,6 @@
   * [ ] Project C: merged first feature!
   * [ ] **BEAST MODE** Started features on _all_ projects!
   * [ ] **BEAST MODE** Merged features on _all_ projects!
-  * [ ] **BEAST MODE** Journal entry draft...
 ```
 
 ### HALFTIME Journal!
