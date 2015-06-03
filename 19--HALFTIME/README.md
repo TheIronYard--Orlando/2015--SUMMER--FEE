@@ -81,3 +81,22 @@ Several of the Blueprints use very repetitive markup. Can you make them data-dri
 
 ## Resources
 
+* **How do I ignore files with `.gitignore`?**
+  * http://git-scm.com/docs/gitignore
+  * https://help.github.com/articles/ignoring-files/
+  * https://github.com/github/gitignore (HOLY CRAP)
+* **How can I make my implementation pixel-perfect?**
+  * [_Perfect Pixel_ by Well Done Code](http://j.mp/1whi5dL) -- align a foreground image of your design with opacity over any webpage
+  * [Griddle.it](http://griddle.it) -- dynamically generated background images to enforce grids
+  * > An image where the number of pixels is the same as in the image source and where the pixels are perfectly aligned to the pixels in the source is said to be pixel perfect.
+    - [_Native Resolution_ on Wikipedia](http://en.wikipedia.org/wiki/Native_resolution)
+* **Where can I get fun placeholder images for my designs?**
+  * [LoremPixel.com](http://lorempixel.com)
+  * [{placekitten}](http://placekitten.com)
+  * [Placehold.it](http://placehold.it)
+  * [Dynamic Dummy Image Generator](dummyimage.com)
+* **How do I learn more about using CSS transitions?**
+  * [_Using CSS Transitions_ on MDN](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Using_CSS_transitions)
+  * [`transition` CSS property on MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/transition)
+  * [`transition` CSS property on CSS Tricks Almanac](https://css-tricks.com/almanac/properties/t/transition/)
+
