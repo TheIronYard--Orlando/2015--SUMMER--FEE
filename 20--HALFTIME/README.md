@@ -47,3 +47,9 @@ Continue working in `feature/*` branches and merging them as you get reviewed. _
 ### Blueprints Everywhere!
 
 You should also be finishing up your Blueprints layouts tonight, using a similar branching and review process as above. Be sure to _show your work_ during review!
+
+## Resources
+
+* **How do I make pieces without seeing the whole?**
+  * [_Atomic Design_ by Brad Frost](http://bradfrost.com/blog/post/atomic-web-design/)
+  * Build a [Pattern Lab](http://demo.patternlab.io/) of widgets?
