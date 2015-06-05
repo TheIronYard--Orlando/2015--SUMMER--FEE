@@ -86,4 +86,6 @@ When you're writing specs, be sure to include images from Skitch or Preview (or 
   * https://developer.github.com/v3/users/
   * https://developer.github.com/v3/repos/
   * https://developer.github.com/v3/activity/events/
-
+* **I need those Github Icons!**
+  * https://octicons.github.com/
+  * USE `bower`...!
