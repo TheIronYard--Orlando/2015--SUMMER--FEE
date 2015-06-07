@@ -78,7 +78,43 @@
     * [ ] How can I ask for more (or less) data from a request?
     * [ ] How do I know that there is more data available?
 * [ ] **All your data is belong to us!**
-  *
+  * [ ] `feature/fetching-data`
+    * [ ] `octocat`
+      * [ ] got profile data
+      * [ ] got repo data
+      * [ ] got activity data
+    * [ ] `USERNAME`
+      * [ ] got profile data
+      * [ ] got repo data
+      * [ ] got activity data
+  * [ ] `feature/adding-placeholders`
+    * [ ] "About" column:
+      * [ ] avatar image
+      * [ ] name and login
+      * [ ] stats list
+    * [ ] "Repositories" column:
+      * [ ] Contributions
+      * [ ] Repositories
+      * [ ] Activity
+  * [ ] `feature/replacing-placeholders`
+    * [ ] `octocat`
+      * [ ] "About" column:
+        * [ ] avatar image
+        * [ ] name and login
+        * [ ] stats list
+      * [ ] "Repositories" column:
+        * [ ] Contributions
+        * [ ] Repositories
+        * [ ] Activity
+    * [ ] `USERNAME`
+      * [ ] "About" column:
+        * [ ] avatar image
+        * [ ] name and login
+        * [ ] stats list
+      * [ ] "Repositories" column:
+        * [ ] Contributions
+        * [ ] Repositories
+        * [ ] Activity
 ```
 
 ### Journal, Week 5
@@ -106,7 +142,6 @@ Can you populate the repo lists from the data? I mean, you got all the data for 
 #### NIGHTMARE MODE
 
 Did you notice how the links in the repo list filter the list of repos? Can you identify how that list is being filtered? Can you update the list of repos to only display that filtered list?
-
 
 ## Resources
 
