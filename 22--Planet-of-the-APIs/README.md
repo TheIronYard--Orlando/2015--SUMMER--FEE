@@ -95,7 +95,9 @@ Remember [those questions about the Github API that I gave you last week](http:/
 
 Use `jQuery.getJSON` to get the data that you fetched from the API onto your page. Fetch the _cached_ data in `api/github/`, _not_ the live API. Next, replace all of the text in your page with placeholders -- `{{login}}` or `{{repo-name}}` -- that you'll eventually replace with data from the API. Finally, use jQuery to replace the placeholder values with your data.
 
-Didn't you fetch your own data from the API, too? What if you replaced your placeholders with _that_ data instead? Could you do both? Provide a `<select>` element that allows you to _choose_ which data to load.
+And while we're at it, didn't you fetch your own data from the API, too? What if you replaced your placeholders with _that_ data instead? Could you do both? Provide a `<select>` element that allows you to _choose_ which data to load.
+
+Create and work in feature branches for each step: `feature/fetching-data`, `feature/adding-placeholders`, `feature/replacing-placeholders`. Merge them down into `develop` as you finish each.
 
 #### BEAST MODE
 
