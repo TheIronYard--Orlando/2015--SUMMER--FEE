@@ -10,7 +10,7 @@
 
 * **Stop wiring up Bower components by hand...**
   * `npm install --saveDev --link wiredep`
-  * `wiredep --help`
+  * `wiredep --help` (also [RTFM](https://github.com/taptapship/wiredep/blob/master/readme.md))
   * Just add some comments...
   * Remove those hand-crafted links...
   * Run `wiredep -S index.html`: voila!
@@ -145,4 +145,17 @@ Did you notice how the links in the repo list filter the list of repos? Can you 
 
 ## Resources
 
-* LINK
+* **How can I learn more about [Sass](http://sass-lang.com)!?**
+  * [Official Documentation](http://sass-lang.com/documentation/file.SASS_REFERENCE.html) (relatively short)
+  * [`node-sass` on Github](https://github.com/sass/node-sass)
+  * [_Introduction to Sass, Part 1_ on Screencasts.org](http://www.screencasts.org/episodes/introduction-to-sass)
+  * [_Introduction to Sass, Part 2_ on Screencasts.org](http://www.screencasts.org/episodes/introduction-to-sass-part-2)
+  * [_Assembling Sass_ on CodeSchool.com](http://sass.codeschool.com/)
+  * [_CSS to Sass_ on TeamTreehouse.com](http://teamtreehouse.com/library/css-to-sass)
+  * [_Sass Style Guide_ on CSS-Tricks.com](https://css-tricks.com/sass-style-guide/)
+* **What other things can I make `npm` do for me?**
+  * [`run-script` | `npm` Documentation](https://docs.npmjs.com/cli/run-script)
+  * [`scripts` | `npm` Documentation](https://docs.npmjs.com/misc/scripts)
+* **What did we do in class today?**
+  * Well, this...
+  * [Refactoring from CSS to Sass with @sjoyal](https://github.com/al-the-x/TIY-Github/pull/1)
