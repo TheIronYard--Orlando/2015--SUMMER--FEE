@@ -2,6 +2,7 @@
   "name": "Planet-of-the-APIs",
   "version": "0.0.0",
   "scripts": {
+    "start": "browser-sync start --server --startPath src/",
     "postinstall": "npm run bower:install",
     "bower:install": "bower install --save",
     "postbower:install": "wiredep --src src/index.html"
