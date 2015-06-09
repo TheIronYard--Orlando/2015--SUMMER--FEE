@@ -33,6 +33,21 @@
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
         <script>
+          $.getJSON('/api/github/users/octocat.json')
+            .then(function(octocat){
+              debugger; // For slo-mo mode...
+
+              // Where is the URL for the avatar? octocat.avatar_url
+              console.log(octocat.avatar_url);
+
+              // Where does the URL go in my HTML page?
+              $avatar = $('img#avatar');
+
+              // What do we do once we have the underpants?
+              $avatar.attr('src', octocat.avatar_url);
+
+              $('[data-bind="user.login"]').text(octocat.login)
+            });
         </script>
     </body>
 </html>
