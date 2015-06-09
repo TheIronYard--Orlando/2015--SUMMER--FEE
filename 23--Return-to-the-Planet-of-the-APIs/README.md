@@ -75,29 +75,43 @@
       * [ ] avatar image
       * [ ] name and login
       * [ ] stats list
-    * [ ] "Repositories" column:
-      * [ ] Contributions
-      * [ ] Repositories
-      * [ ] Activity
   * [ ] `feature/replacing-placeholders`
     * [ ] `octocat`
       * [ ] "About" column:
         * [ ] avatar image
         * [ ] name and login
         * [ ] stats list
-      * [ ] "Repositories" column:
-        * [ ] Contributions
-        * [ ] Repositories
-        * [ ] Activity
     * [ ] `USERNAME`
       * [ ] "About" column:
         * [ ] avatar image
         * [ ] name and login
         * [ ] stats list
-      * [ ] "Repositories" column:
+  * [ ] **BEAST MODE** "Repositories" column:
+    * [ ] `feature/adding-placeholders`
+      * [ ] Contributions
+        * Popular Repositories
+        * Contributed To
+      * [ ] Repositories
+    * [ ] `feature/replacing-placeholders`
+      * [ ] `octocat`
         * [ ] Contributions
+          * Popular Repositories
+          * Contributed To
         * [ ] Repositories
         * [ ] Activity
+      * [ ] `USERNAME`
+        * [ ] Contributions
+          * Popular Repositories
+          * Contributed To
+        * [ ] Repositories
+        * [ ] Activity
+  * [ ] **NIGHTMARE MODE** Filtering Repositories
+    * [ ] "All"
+    * [ ] "Public"
+    * [ ] "Private"
+    * [ ] "Sources"
+    * [ ] "Forks"
+    * [ ] "Mirrors"
 ```
 
 ### Journal, Week 5
