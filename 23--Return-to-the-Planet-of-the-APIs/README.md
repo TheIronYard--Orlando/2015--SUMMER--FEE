@@ -141,4 +141,9 @@ Did you notice how the links in the repo list filter the list of repos? Can you 
 
 ## Resources
 
-* LINK
+* **How do I learn more about the HTTP protocol?**
+  * [_How the Web Works_ on TeamTreehouse.com](http://teamtreehouse.com/library/how-the-web-works)
+  * [_HyperText Transfer Protocol (HTTP)_ on Wikipedia](http://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol)
+  * [_HTTP Status Codes_ on Wikipedia](http://en.wikipedia.org/wiki/List_of_HTTP_status_codes)
+  * [_cURL_ on Wikipedia](http://en.wikipedia.org/wiki/CURL)
+  * [_HTTP Methods_ on RestAPITutorial.com](http://www.restapitutorial.com/lessons/httpmethods.html)
