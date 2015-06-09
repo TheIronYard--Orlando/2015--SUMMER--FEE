@@ -1,0 +1,13 @@
+{
+  "name": "Planet-of-the-APIs",
+  "version": "0.0.0",
+  "scripts": {
+    "postinstall": "npm run bower:install",
+    "bower:install": "bower install --save",
+    "postbower:install": "wiredep --src src/index.html"
+  },
+  "devDependencies": {
+    "bower": "^1.4.1",
+    "wiredep": "^2.2.2"
+  }
+}
