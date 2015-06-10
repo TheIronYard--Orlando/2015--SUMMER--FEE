@@ -12,6 +12,10 @@
   * What is [grid-based design](http://en.wikipedia.org/wiki/Grid_%28graphic_design%29)?
   * How would I [build that in CSS](http://j4n.co/blog/Creating-your-own-css-grid-system)?
   * How would I _use_ that?
+* [ ] **I am not a `<template>`...! I am a HTML element!**
+  * What is [template processing](http://en.wikipedia.org/wiki/Template_processor)?
+  * How would I build that with jQuery?
+  * Why would I ever _use_ that?
 
 ## Assignment
 
@@ -63,6 +67,19 @@
     * [ ] Full-width profile!
     * [ ] 2/5ths avatar image!
     * [ ] 3/5ths detail list!
+* [ ] **Templatize me, Cap'n!**
+  * [ ] `feature/repo-list-placeholders`
+    * [ ] Repos got names, yo.
+    * [ ] What about a description?
+    * [ ] My god, it's full of stars...
+  * [ ] `feature/repo-list-template`
+    * [ ] Convert to `<template>`!
+    * [ ] Can I see your `id`, please?
+    * [ ] Eat that `<template>`!
+    * [ ] Now spit it back out!
+  * [ ] **BEAST MODE**
+    * [ ] Fill in that `<template>`...
+    * [ ] FOR EVERY REPO. :astounded:
 ```
 
 ### Journal, Week 5
@@ -96,6 +113,18 @@ That should be a _responsive_ grid, though. Add a mdeia query rule that makes th
 #### BEAST MODE
 
 A 5-column grid is a lazy person's exercise. A proper grid needs more columns: 12 or 16, ideally. Really fancy grids have 24 or 36 columns. Are you up to the challenge? Hint: that `@for` syntax might help.
+
+### Templatize me, Cap'n!
+
+Convert your markup for each repository list into reusable list-item pieces. Start by replacing _one_ of your repo list items with placeholders -- `{{repo.name}}`, `{{repo.stars}}` -- that match where in the API data these values originate. Put this work in the `feature/repo-list-placeholders` branch.
+
+When you're done, reviewed, and merged, open a new branch called `feature/repo-list-templates` and wrap all of that placeholder-laden markup in `<template>` tags. Give them descriptive (and unique!) `id` attributes so we can pick them out of the DOM with jQuery.
+
+Pluck the HTML contents of each `<template>` tag and pass it through the `template` function in Lodash. Don't forget to assign the result of each to a variable! What is the _type_ of the value returned by `lodash.template`? How can we use that value to print -- i.e. `console.log` -- the HTML for a single repo list item?
+
+#### BEAST MODE
+
+If you can _print_ the HTML for a list item, can you add that HTML to the page? Anywhere? What about _in the right place_...?
 
 ## Resources
 
