@@ -21,6 +21,25 @@
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
+        <section class="grid">
+          <div class="unit-span-1"><div>1</div></div>
+          <div class="unit-span-1"><div>2</div></div>
+          <div class="unit-span-1">3</div>
+          <div class="unit-span-1">4</div>
+          <div class="unit-span-1">5</div>
+          <div class="unit-span-1">6</div>
+          <div class="unit-span-1">7</div>
+          <div class="unit-span-1">8</div>
+        </section><!--.grid-->
+        <section class="grid">
+          <div class="unit-span-2">2 col</div>
+          <div class="unit-span-4">4 col</div>
+          <div class="unit-span-2">2 col</div>
+        </section>
+        <section class="grid">
+          <div class="unit-span-4 offset-2">.unit-span-4.offset-2</div>
+        </section>
+
         <!-- Add your site or application content here -->
         <ul class="profile-details">
           <li> <img src="http://lorempixel.com/200/200/cats" id="avatar" />
@@ -35,7 +54,7 @@
         <script>
           $.getJSON('/api/github/users/octocat.json')
             .then(function(octocat){
-              debugger; // For slo-mo mode...
+              // debugger; // For slo-mo mode...
 
               // Where is the URL for the avatar? octocat.avatar_url
               console.log(octocat.avatar_url);
