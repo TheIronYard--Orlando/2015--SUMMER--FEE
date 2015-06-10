@@ -5,7 +5,8 @@
     "start": "browser-sync start --server --startPath src/",
     "postinstall": "npm run bower:install",
     "bower:install": "bower install --save",
-    "postbower:install": "wiredep --src src/index.html"
+    "postbower:install": "wiredep --src src/index.html",
+    "sass": "node-sass src/scss/main.scss -o src/css/"
   },
   "devDependencies": {
     "bower": "^1.4.1",
