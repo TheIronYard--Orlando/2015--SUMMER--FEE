@@ -1,0 +1,39 @@
+.grid {
+  $grid-width: 100%;
+  max-width: 80%;
+
+  @extend .clearfix;
+
+  width: $grid-width;
+  margin: 0 auto;
+
+  background-color: lightgrey;
+  outline: 2px solid red;
+
+  .unit-span-1 {
+    background-color: gray;
+    outline: 2px solid blue;
+
+    float: left;
+    width: ($grid-width/8) * 1;
+
+    padding-left: 2em;
+    box-sizing: border-box;
+    &:first-child {
+      padding-left: 0;
+    }
+  }
+  .unit-span-2 {
+    @extend .unit-span-1;
+
+    width: ($grid-width/8) * 2;
+  }
+  .unit-span-4 {
+    @extend .unit-span-1;
+
+    width: ($grid-width/8) * 4;
+  }
+  .offset-2 {
+    margin-left: ($grid-width/8) * 2;
+  }
+}
