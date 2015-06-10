@@ -128,4 +128,17 @@ If you can _print_ the HTML for a list item, can you add that HTML to the page? 
 
 ## Resources
 
-* LINK
+* **How can I learn more about grids?**
+  * [_Grid-based Graphic Design_ on Wikipedia](http://en.wikipedia.org/wiki/Grid_%28graphic_design%29)
+  * [_Creating Your Own CSS Grid System_ by Jan Drewniak](http://j4n.co/blog/Creating-your-own-css-grid-system)
+  * [TheGridSystem.org](http://thegridsystem.org) -- Collection of resources on grids
+  * [Grid-Based.com](http://grid-based.com/) -- Examples of grids in the wild!
+  * [griddle.it](http://griddle.it) -- Dynamically generated background images modeling a grid-based layout.
+* **How can I learn more about templates?**
+  * [Template Proccessor](http://en.wikipedia.org/wiki/Template_processor)
+  * [`liquid` templates](https://github.com/Shopify/liquid/wiki) (like Jekyll)
+  * [`lodash.template`](http://lodash.com/docs/#template)
+* **What other neat tricks do you know?**
+  * http://emmet.io/
+  * http://vim-adventures.com/
+
