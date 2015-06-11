@@ -44,7 +44,33 @@
           * `node-sass`
           * `wiredep`
 * [ ] **Build Me Something Beautiful**
-  * more coming!
+  * [ ] `release/0.0.0--yak-shaving` from `master`
+    * PR into `master`
+    * H5BP in the `src/`
+    * `init` that JSON!
+    * `npm install --save-dev` ALL THE THINGS!
+      * `bower`
+      * `browser-sync`
+      * `node-sass`
+      * `wiredep`
+    * `npm run` FTW!
+    * `bower install --save` ALL THE THINGS!
+      * `normalize.css`
+      * `modernizr`
+      * `jquery`
+      * `lodash`
+    * what about that `wiredep`, son?
+    * DEATH TO CSS!
+    * Kill that "Hello, World!", too.
+    * Oh! You got `dist/`!
+    * IGNORED
+    * Reviewed and merged!
+  * [ ] Planning Issue(s) Linked!
+  * [ ] Plan Complete _and_ Documented! `>_<`
+    * [ ] User Stories in Wiki
+    * [ ] 2x APIs Selected
+    * [ ] Feature Issues
+    * [ ] `develop` branched from `master`
 ```
 
 ### Build Me Something Beautiful
@@ -59,9 +85,9 @@ You'll have to figure out what you can and cannot do by experimentation; punt wh
 
 #### IMPORTANT!
 
-Start with a plan. Whiteboard ideas. Take pictures and load them into Skitch or Preview to mark up. Save them into your repo. Write some basic User Stories -- **A Smurf can smurf so that Smurfs can smurf** -- and add them to Issue #1 in your shared repo: **The Big Plan**. Break those down into smaller pieces _together_ and make additional issues for them.
+Start with a plan. Whiteboard ideas. Take pictures and load them into Skitch or Preview to mark up. Save them into your repo. Write some basic User Stories -- **A Smurf can smurf so that Smurfs can smurf** -- and add them to the Wiki for your repo. Break those down into smaller pieces _together_ and make Issues for them.
 
-I will be looking for these pieces. **Write no code on Thursday** but you are allowed to pair up on yak shaving.
+I will be looking for these pieces, so link them to your _WIP Issue_. **Write no code on Thursday** but you are allowed to pair up on yak shaving.
 
 ## Additional Resources
 
