@@ -45,6 +45,10 @@ build-lists: true
 * `String` HTTP status
 * `jqXHR` with `jQuery.Promise` interface
 
+---
+
+# What arguments are passed to the callbacks on a `jQuery.Promise` returned by `$.ajax`?
+
 ## Rejected:
 * `jqXHR` with `jQuery.Promise` interface
 * `String` error message
