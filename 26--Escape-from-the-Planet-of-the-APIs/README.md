@@ -16,6 +16,7 @@
   * _WIP Issue_: `26 -- Escape from the Planet of the APIs -- YOUR NAME`
     * Link to PR in `USERNAME.github.io` from `journal-week-6` to `master`
     * Link to PRs in `USERNAME.github.io` from `feature/*` to `remodeling`
+    * Link to PR in `USERNAME.github.io` from `remodeling` to `master`
     * Link to PR in `TIY-Catalog` from `release/0.0.0--yak-shaving` to `master`
     * Link to Issue 1 named `Planning` in `TIY-Catalog`
   *  _WIP Branch_:
@@ -50,7 +51,24 @@
           * `start`
           * `build`
 * [ ] **Reading APIs: Etsy**
-  * Questions go here...
+  * [ ] How do I make API requests?
+    * [ ] What is the base URL?
+    * [ ] Are there any headers or query parameters required?
+    * [ ] What kind of response should I expect?
+  * [ ] How does the API handle authentication?
+    * [ ] Do I need to authenticate?
+    * [ ] What can I do with an unauthenticated request?
+    * [ ] How can I authenticate my request?
+  * [ ] How do I ask the API for...
+    * [ ] A list of products belonging to a specific category or collection?
+    * [ ] Details about a specific product? What details are provided?
+    * [ ] The main and additional images for a product?
+  * [ ] Is there a limit to the number of requests I can make?
+    * [ ] Is there a way of extending that limit?
+    * [ ] What happens when I hit the limit?
+  * [ ] What if there is a _lot_ of data returned?
+    * [ ] How can I ask for more (or less) data from a request?
+    * [ ] How do I know that there is more data available?
 * [ ] **Don't Stop Believing**
   * [ ] Got a plan...
   * [ ] Made my _own_ checklist...
@@ -69,11 +87,44 @@
     * `vue`
 ```
 
-### WRITING ASSIGNMENT
+### Journal, Week 6!
 
-### READING ASSIGNMENT
+You know the drill by now, don't ya? 1 reflective journal, 1 tutorial journal, 1 bookmark journal in a branch of your `USERNAME.github.io` repo called `journal-week-6`... which should be _from_ `master` with a PR back _into_ `master`. You're okay with that, right? I mean, a blog post or three _isn't_ a feature, after all. Speaking of features...
 
-### CODING ASSIGNMENT
+### Don't Stop Believing...
+
+Don't you have a ton of features backed up in your `USERNAME.github.io` repo? Identify at least 3 features that you intend to complete this week while we work on the _big_ project together. Create or continue using `feature/*` branches with PRs into `remodeling`. Solicit peer reviews and merge your PRs as you go. Open a PR from `remodeling` into `master` so you can release your progress at the end of the week.
+
+### Yak Shaving: `TIY-Catalog`
+
+This week we're going to build a couple of pages from Etsy: a couple of category pages and the product detail pages. That means we need some yaks shaved! Just like we did last week, give us a `src/` and `dist/` directory, start with a `.gitignore` file in `dist/` and H5BP in `src/`, `init` those `.json` files, and start loading up dependencies. 
+
+#### Install-fest!
+
+We've got new tools this week -- [GulpJS](http://gulpjs.com) and a host of plugins -- so to cut down on the delays, go ahead and install those packages _globally_ so we can link them into the project later. No need to assign them as dependencies _yet_... we'll do that together.
+
+### Reading APIs: Etsy
+
+Read through [Etsy API documentation](https://www.etsy.com/developers/documentation) to answer the following questions:
+
+  * How do I make API requests?
+    * What is the base URL?
+    * Are there any headers or query parameters required?
+    * What kind of response should I expect?
+  * How does the API handle authentication?
+    * Do I need to authenticate?
+    * What can I do with an unauthenticated request?
+    * How can I authenticate my request?
+  * How do I ask the API for...
+    * A list of products belonging to a specific category or collection?
+    * Details about a specific product? What details are provided?
+    * The main and additional images for a product?
+  * Is there a limit to the number of requests I can make?
+    * Is there a way of extending that limit?
+    * What happens when I hit the limit?
+  * What if there is a _lot_ of data returned?
+    * How can I ask for more (or less) data from a request?
+    * How do I know that there is more data available?
 
 ## Resources
 
