@@ -74,7 +74,28 @@
   * [ ] Made my _own_ checklist...
   * [ ] Linked up!
 * [ ] **Yak Shaving**
-  * [ ] 
+  * [ ] Start by Skitching!
+   * [ ] https://www.etsy.com/trending
+   * [ ] https://www.etsy.com/browse/fathers-day-gifts
+   * [ ] https://www.etsy.com/search
+  * [ ] Prep version `0.0.0`!
+   * [ ] H5BP the `src/`, Luke...
+   * [ ] `init` what you need...
+   * [ ] and `.gitignore` the `dist/`
+   * [ ] among other things...
+   * [ ] `npm install --link --save-dev`
+     * [ ] `bower`
+     * [ ] `browser-sync`
+     * [ ] `node-sass`
+     * [ ] `wiredep`
+   * [ ] `bower install --save`
+     * [ ] `normalize.css`
+     * [ ] `modernizr`
+     * [ ] `jquery`
+     * [ ] `lodash`...?
+  * [ ] Merge that beast!
+  * [ ] How about that `develop` branch?
+  * [ ] You've got Issues, man!
 * [ ] **Install-fest!**
   * `npm install --global`
     * `gulp`
@@ -99,6 +120,13 @@ Don't you have a ton of features backed up in your `USERNAME.github.io` repo? Id
 
 This week we're going to build a couple of pages from Etsy: a couple of category pages and the product detail pages. That means we need some yaks shaved! Just like we did last week, give us a `src/` and `dist/` directory, start with a `.gitignore` file in `dist/` and H5BP in `src/`, `init` those `.json` files, and start loading up dependencies. 
 
+We'll start with these:
+
+* [ ] https://www.etsy.com/trending
+* [ ] https://www.etsy.com/browse/fathers-day-gifts
+* [ ] https://www.etsy.com/search
+
+Note the differences between the two and Skitch 'em like your life dependended on it! We'll be building the standard category listing page together over the week, but you can be sure to see some of the others along the way.
 #### Install-fest!
 
 We've got new tools this week -- [GulpJS](http://gulpjs.com) and a host of plugins -- so to cut down on the delays, go ahead and install those packages _globally_ so we can link them into the project later. No need to assign them as dependencies _yet_... we'll do that together.
