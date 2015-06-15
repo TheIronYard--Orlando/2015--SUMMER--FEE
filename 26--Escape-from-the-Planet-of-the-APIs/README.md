@@ -156,4 +156,11 @@ Read through [Etsy API documentation](https://www.etsy.com/developers/documentat
 
 ## Resources
 
-* LINK
+* **What is CORS, really?**
+  * ["Simple Example" of CORS on Wikipedia](https://en.wikipedia.org/wiki/Cross-origin_resource_sharing#Simple_example)
+  * [_Using CORS_ by Monsur Hossain on HTML5 Rocks](http://www.html5rocks.com/en/tutorials/cors/)
+  * [_HTTP Access Control (CORS)_ on MDN](https://developer.mozilla.org/en-US/docs/Web/HTTP/Access_control_CORS)
+* **How can I use the `<template>` tag?**
+  * [_An Introduction to HTML Imports_ on Team Treehouse](http://blog.teamtreehouse.com/introduction-html-imports)
+* **What is the difference between Lodash and Underscore JS?**
+  * http://stackoverflow.com/questions/13789618/differences-between-lodash-and-underscore
