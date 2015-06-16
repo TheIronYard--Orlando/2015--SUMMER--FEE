@@ -29,6 +29,7 @@
   * You want a `gulpfile`?
   * What is this "gulpfile"...!?
     * Minimally:
+
       ```javascript
       var gulp = require('gulp');
 
@@ -40,13 +41,15 @@
     * Maybe we should make it, y'know... do something?
   * What do you do in `gulpfile.js`?
     * Maybe you could make a `dist/` bundle?
+
       ```javascript
       gulp.task('build', function(){
         gulp.src('src/index.html')
-          .dest('dist/');
+          .pipe(gulp.dest('dist/'));
       }); // END gulp.task(build)
       ```
     * What about building your Sass files?
+
       ```javascript
       gulp.task('sass', function(){
         var sass = require('gulp-sass');
@@ -58,12 +61,13 @@
       }); // END gulp.task(sass)
       ```
     * And watching those files for changes?
+
       ```javascript
       gulp.task('watch', function(){
         gulp.watch('src/scss/**/*.scss', [ 'sass' ]);
       }); // END gulp.task(watch)
       ```
-  * They're like [_recipes_](https://github.com/gulpjs/gulp/tree/master/docs/recipes)...
+    * They're like [_recipes_](https://github.com/gulpjs/gulp/tree/master/docs/recipes)...
 
 ## Assignment
 
