@@ -114,6 +114,8 @@
     * [ ] Gulped?
     * [ ] NPM'd?
   * [ ] First feature merged!
+  * [ ] **BEAST MODE** Product list (category) page complete!
+  * [ ] **BEAST MODE** Product detail page complete!
 ```
 
 ### Don't Stop Believing
@@ -151,6 +153,10 @@ As a group, make detailed Skitches of the following pages on Etsy.com:
 Formulate a group plan of attack for building out _at least one_ product and category page with HTML and (S)CSS _only_... but with one catch: **the Team Lead cannot write any code.** His or her job is to pair up with each of the other two, lead code reviews, and ensure the submitted work matches the joint plan.
 
 Don't worry, we'll switch the Team Lead roles, so you'll probably get a chance to be Team Lead. If that's you this time around, don't waste your time waiting around for code to review: refine the plan, document the API for the next phase of development, pro-actively pair up with your teammates... make the most of your time.
+
+### BEAST MODE
+
+Actually _complete_ the HTML and (S)CSS completed for the product detail and category page. Use the grid, Luke!
 
 ## Resources
 
