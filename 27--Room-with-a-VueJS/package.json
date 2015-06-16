@@ -1,0 +1,11 @@
+{
+  "name": "27--Room-with-a-VueJS",
+  "version": "1.0.0",
+  "description": "## Rituals (~1h 15m)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
