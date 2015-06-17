@@ -8,6 +8,40 @@
 
 ## Agenda
 
+* **Use the Grid, Luke!**
+  * Overall grid constraints:
+    * How many units do we need?
+    * What are the size(s) of our gutters?
+    * Where are the gutters?
+  * `category.html`
+    * How many columns do we need?
+    * What are the proportions of those columns?
+    * Are there columns _inside_ of columns?
+    * What elements of the API data can we identify?
+  * `product.html`
+    * How many columns do we need?
+    * What are the proportions of those columns?
+    * Are there columns _inside_ of columns?
+    * What elements of the API data can we identify?
+* **Let's build it!**
+  * [ ] "Keep It Simple" Grid? Let's use [Bootstrap](http://getbootstrap.com/css/#grid)...
+  * [ ] Don't we need a build step here?
+    * `npm install --link --save-dev bower wiredep`
+    * add some comments...
+    * `bower install` and `wiredep`
+    * can `gulp` make this easier?
+  * [ ] And just `npm start`... Wait, `gulp`?
+    * `gulp serve` is the new `browser-sync`
+  * [ ] Okay, how about some MF'g HTML...
+    * Let's just use those class names for the moment...
+    * Time for lipsum! Lipsum everywhere!
+    * Need some images? I got your images right here...
+  * [ ] Maybe time for some refactoring...
+    * Replacing grid classes with semantic class names instead...
+    * Replacing lipsum with placeholders...
+    * Injecting lipsum _back into the page_ with VueJS! Wait...
+  * [ ] **BONUS** Fetching data onto the page?
+
 ## Assignment
 
 ```markdown
@@ -128,4 +162,16 @@ Pull all the data that you fetched from the API onto the page using jQuery. Atta
 
 ## Resources
 
-* LINK
+* **How can I learn more about Bootstrap?**
+  * [Official Documentation](http://getbootstrap.com/) -- [Getting Started](http://getbootstrap.com/getting-started/)
+  * [_Blasting Off with Bootstrap_ on CodeSchool](https://www.codeschool.com/courses/blasting-off-with-bootstrap)
+  * [_Bootstrap for Beginners_ by Caitlin McKenna](http://learntocodewith.me/getting-started/topics/bootstrap/)
+* **What alternatives are there to Bootstrap?**
+  * Whole-Hog Frameworks:
+    * [Zurb Foundation](http://foundation.zurb.com) -- whole-hog UI framework
+    * [Semantic UI](http://semantic-ui.com)
+    * [PureCSS](http://purecss.io)
+    * [Google Web Starter Kit](https://developers.google.com/web/tools/starter-kit/)
+  * Just a Grid:
+    * [Skeleton CSS](http://getskeleton.com)
+    * [Bourbon (SASS)](http://bourbon.io) + [Neat (SASS)](http://neat.bourbon.io)
