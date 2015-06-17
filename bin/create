@@ -19,9 +19,11 @@ if [[ $# -lt 1 ]]; then
   _usage; exit 1
 fi
 
-git checkout -b $1:l \
-  && ginstall -vCD .templates/${TEMPLATE:-'TUESDAY.md'} $1/README.md \
-  && git add $1 \
+title=$1; number=${title[0,2]}
+
+git checkout -b feature/assignment-${number} \
+  && ginstall -vCD .templates/${TEMPLATE:-'TUESDAY.md'} $title/README.md \
+  && git add $title \
   && git status -s
 
 # vim: ft=zsh
