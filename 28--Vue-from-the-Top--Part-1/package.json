@@ -7,5 +7,12 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "bower": "^1.4.1",
+    "browser-sync": "^2.7.12",
+    "gulp": "^3.9.0",
+    "gulp-sass": "^2.0.1",
+    "wiredep": "^2.2.2"
+  }
 }
