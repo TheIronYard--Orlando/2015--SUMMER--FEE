@@ -84,12 +84,12 @@
         * `category-*.html`
         * `product-*.html`
       * `src/`
+        * `scss/`
+          * `_category.scss`
+          * `_product.scss`
+          * `main.scss`
         * `category.html`
         * `product.html`
-      * `scss/`
-        * `_category.scss`
-        * `_product.scss`
-        * `main.scss`
 * [ ] **Don't Stop Believing**
   * [ ] First feature reviewed and merged!
   * [ ] Second feature planned and started...
