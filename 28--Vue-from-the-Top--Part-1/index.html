@@ -30,12 +30,63 @@
             <button>Favorite</button>
           </h4><!--.shop-name-->
           <nav class="col-sm-6 col-sm-offset-3">
-            <a href="#" class="col-sm-1"><img src="http://lorempixel.com/75/75/cats"></a>
-            <a href="#" class="col-sm-1"><img src="http://lorempixel.com/75/75/cats"></a>
-            <a href="#" class="col-sm-1"><img src="http://lorempixel.com/75/75/cats"></a>
-            <a href="#" class="col-sm-1"><img src="http://lorempixel.com/75/75/cats"></a>
+            <a href="#"><img src="http://lorempixel.com/75/75/cats"></a>
+            <a href="#"><img src="http://lorempixel.com/75/75/cats"></a>
+            <a href="#"><img src="http://lorempixel.com/75/75/cats"></a>
+            <a href="#"><img src="http://lorempixel.com/75/75/cats"></a>
+            <style>
+              img { vertical-align: top; }
+              .store-item-count {
+                display: inline-block;
+                text-align: center;
+                width: 75px; height: 75px;
+                padding: 0.5ex 0.5em;
+                box-sizing: border-box;
+                border: 0.5ex solid gray;
+              }
+            </style>
+            <a href="#" class="store-item-count">
+              <big>738</big> <br>
+              <small>items</small>
+            </a>
           </nav>
         </header><!--.page-header-->
+        <section class="column-main col-sm-7">
+          <style>
+            .slideshow {
+              position: relative;
+            }
+            .slideshow > img {
+              width: 100%;
+            }
+            .slideshow > a {
+              position: absolute;
+              font-size: 400%;
+              text-decoration: none;
+              top: 0; bottom: 0;
+            }
+            .slideshow > a::before {
+              position: absolute;
+              content: '+'; top: 50%;
+            }
+            .slideshow > a[rel="prev"] {
+              left: 0; right: 50%;
+            }
+            .slideshow > a[rel="next"] {
+              right: 0; left: 50%;
+            }
+            .slideshow > a span {
+              display: none;
+            }
+          </style>
+          <figure class="slideshow">
+            <a href="#" rel="prev"><span>Go to previous image</span></a>
+            <a href="#" rel="next"><span>Go to next image</span></a>
+            <img src="http://lorempixel.com/600/800/cats">
+          </figure>
+        </section><!--.column-main-->
+        <aside class="column-details col-sm-5">
+        </aside><!--.column-details-->
       </main><!--.container-->
     </body>
 </html>
