@@ -172,4 +172,11 @@ There's totally an endpoint in the API for adding a product to someone's "faves"
 
 ## Resources
 
-* LINK
+* **How do I ask the Etsy API for _more_ data than it returns by default?**
+  * [Working with Resources: Associations](https://www.etsy.com/developers/documentation/getting_started/resources#section_associations)
+  * [Example with `curl`](https://gist.github.com/al-the-x/4de8f197dd9dc25119f3)
+* **How do I pick an image size when I'm building a responsive site?**
+  * [_Responsive Images in Practice_ by Eric Portis on A List Apart (2014)](http://alistapart.com/article/responsive-images-in-practice)
+  * [ResponsiveImages.org](https://responsiveimages.org/) -- [`<picture>` element polyfill](http://scottjehl.github.io/picturefill/#examples)
+  * [_Which responsive images solution should you use?_ by Chris Coyier on CSS-Tricks.com](https://css-tricks.com/which-responsive-images-solution-should-you-use/)
+
