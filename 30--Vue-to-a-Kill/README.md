@@ -139,13 +139,15 @@ This week, we'll rebuild [the `TIY-Gradebook` app](http://theironyard--orlando.g
 
 We'll use a _new_ generator this week -- [`generator-gulp-webapp`](https://github.com/yeoman/generator-gulp-webapp) -- and get [Angular JS](http://angularjs.org) in the mix with a quick `bower install`. We'll also start using [`git flow`](http://nvie.com/posts/a-successful-git-branching-model/) this week, which makes feature and release branches a whiz.
 
+When you're don't with your yak shaving, you should Skitch [the reference implementation](http://theironyard--orlando.github.io/TIY-Gradebook/) and start writing down User Stories to describe what it _currently_ does and any ideas you might have for what it _could do_... y'know, one day. For example, Susanna would like to see the attendance record for the class, so that she can quickly view how many absences there have been. What would _you_ like to see it do?
+
 #### Shaping Up with Angular JS
 
 Throughout the week, you'll be assigned a piece of [_Shaping Up with Angular JS_ on CodeShool](https://www.codeschool.com/courses/shaping-up-with-angular-js) to work through. For tonight, play through the _entire course_ by watching the videos and just taking the answers on the challenge. Type them yourself -- quickly -- to move forward. Take a picture of your badge for the course when you complete and attach it to your _WIP Issue_.
 
 #### Install-fest!
 
-To make the `git flow` workflow easier, we're going to use the `git-flow-avh` tool available from `brew`. There's also `git-flow` package in `brew`... **Don't install `git-flow`!** It's old an unmaintained; many people are trying to kill it. **Install `git-flow-avh` instead!
+To make the `git flow` workflow easier, we're going to use the `git-flow-avh` tool available from `brew`. There's also `git-flow` package in `brew`... **Don't install `git-flow`!** It's old an unmaintained; many people are trying to kill it. **Install `git-flow-avh` instead!**
 
 ## Resources
 
