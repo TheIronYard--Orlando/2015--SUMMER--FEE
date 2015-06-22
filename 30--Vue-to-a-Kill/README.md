@@ -149,4 +149,10 @@ To make the `git flow` workflow easier, we're going to use the `git-flow-avh` to
 
 ## Resources
 
-* LINK
+* **Where did these default styles come from for `<input>` elements?**
+ * https://en.wikipedia.org/wiki/Widget_(GUI)
+* **Where can I learn more about branching models with `git`?**
+ * [_A Successful Branching Model_ by @nvie](http://nvie.com/posts/a-successful-git-branching-model/)
+ * [_Comparing Workflows_ on Atlassian.com](https://www.atlassian.com/git/tutorials/comparing-workflows)
+ * [_Why `git` is better than X_ by Scott Chaçon](https://github.com/schacon/whygitisbetter) -- the domain `http://whygitisbetterthanx.com` is dead
+
