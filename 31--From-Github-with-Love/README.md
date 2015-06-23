@@ -58,15 +58,81 @@
 
 ```markdown
 * [ ] **Yak Shaving**
-  * _WIP Issue_: `XX -- Assignment Name -- YOUR NAME`
-  *  _WIP Branch_:
+  * _WIP Issue_: `31 -- From Github With Love -- YOUR NAME`
+    * Links to PRs in:
+      * `USERNAME.github.io`
+        * `journal-week-7` into `master`
+        * `feature/*` into `remodeling`
+        * `remodeling` into `master`
+      * `TIY-Gradebook`
+        * `feature/cached-data` into `develop`
+        * `feature/mockups-repositories` into `develop`
+        * `feature/mockups-milestones` into `develop`
+  * _WIP Branch_:
+    * `USERNAME.github.io`
+      * `journal-week-7` -- journal entries
+      * `feature/*` -- (small) feature branches
+      * `remodeling` -- merged features
+    * `TIY-Gradebook`
+      * `master` -- _only_ release `0.0.0`
+      * `develop` -- _only_ merged features
+      * `feature/cached-data` -- saved data from the Github API
+      * `feature/mockups-repositories` -- HTML+SCSS for Repositories list
+      * `feature/mockups-milestones` -- HTML+SCSS for Milestones list
   * _WIP Files_:
-* [ ] **WRITING**
-  * checkpoints
-* [ ] **READING**
-  * checkpoints
-* [ ] **CODING**
-  * checkpoints
+    * `TIY-Gradebook`
+      * `api/github/` -- cached API data!
+      * `app/`
+        * `scripts/`
+          * `main.js` -- no need to break it up... yet
+        * `styles/`
+          * `main.scss` -- don't forget to `@import`
+          * `_repositories.scss`
+          * `_milestones.scss`
+        * `views/` -- copy `index.html` to start
+          * `repositories.html`
+          * `milestones.html`
+        * `index.html`
+      * `bower.json` -- need Angular JS _and_ Bootstrap!
+      * `gulpfile.babel.json`
+      * `package.json`
+* [ ] **Journal, Week 7: Any Way You Want It**
+  * Feature 1: Complete!
+  * Feature 2: Started!
+  * Feature 3: Planned!
+* [ ] **Reading APIs: Github Issues**
+  * What credentials do I need to authenticate with the Github API?
+  * How can I provide authentication credentials to Github?
+* [ ] **API Gymnastics**
+  * [ ] Fetched Repositories for `TheIronYard--Orlando`...
+  * [ ] Fetched Milestones for `2015--SUMMER--FEE`...
+  * [ ] Fetched Labels for `2015--SUMMER--FEE`...
+  * [ ] Fetched Issues for `2015--SUMMER--FEE`...
+    * [ ] ...with label "Attendance".
+    * [ ] ...with any Milestone assigned.
+    * [ ] ...with _no_ Milestone assigned.
+* [ ] **Shaping Up with Angular JS**
+  * [ ] Completed Level 1!
+  * [ ] Completed Level 2!
+  * [ ] Pics or it didn't happen!
+* [ ] **From Github With Love**
+  * [ ] Installed Bootstrap... if necessary.
+  * [ ] Adjusted and ran `gulp wiredep`...
+  * [ ] `feature/mockups-repositories`
+    * [ ] Start with a [`.list-group`](http://getbootstrap.com/components/#list-group)...
+    * [ ] Links would be nice...
+    * [ ] Maybe more semantic HTML would help...
+    * [ ] How about one with placeholders?
+    * [ ] **BEAST MODE** Use `@extend` instead?
+  * [ ] `feature/mockups-milestones`
+    * [ ] Also probably a [`.list-group`](http://getbootstrap.com/components/#list-group)...
+    * [ ] But what's that nifty [`.progress-bar`](http://getbootstrap.com/components/#progress)?
+    * [ ] Some labels and colors would be nice...
+    * [ ] Don't forget links!
+    * [ ] Try that semantic HTML one more time...
+    * [ ] Put some placeholders in one...
+    * [ ] **BEAST MODE** It's called semantic CSS...
+  * [ ] `feature/cached-data` -- DID YOU READ API GYMNASTICS!?
 ```
 
 ### WRITING ASSIGNMENT
