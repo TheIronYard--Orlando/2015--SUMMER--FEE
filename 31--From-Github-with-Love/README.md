@@ -13,6 +13,7 @@
     * Client-side JavaScript Framework
     * 2-way Data Binding: Reactive View
     * Modular, Service-Oriented Architecture
+    * Dependency Injection FTW!
   * How do I use it?
     * `bower install --save angular`
     * `wiredep -s index.html`
