@@ -165,4 +165,12 @@ If you selected both Bootstrap and Sass when you used `yo gulp-webapp` then you 
 
 ## Resources
 
-* LINK
+* **How do I learn more about this EcmaScript 6 / 2015 / 2016 / 7 mess?**
+  * https://en.wikipedia.org/wiki/ECMAScript
+  * https://babeljs.io/docs/learn-es2015/ -- taken from https://github.com/lukehoban/es6features/blob/master/README.md
+* **How do I learn more about tagging and releases?**
+  * [`git` Basics: Tagging](https://git-scm.com/book/en/v2/Git-Basics-Tagging)
+  * [`git tag`](http://git-scm.com/docs/git-tag)
+  * [_Release Your Software_ on Github.com](https://github.com/blog/1547-release-your-software)
+  * [Releases in Github Help](https://help.github.com/categories/releases/)
+
