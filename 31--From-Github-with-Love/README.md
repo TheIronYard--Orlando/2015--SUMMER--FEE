@@ -151,6 +151,18 @@ Please answer any of the questions from Monday that you didn't get to and additi
 
 Gonna need some data from that API, y'all. Create a directory called `api/github/` and start putting cached JSON data in there. We'll need a list of all the Repositories for `TheIronYard--Orlando`, the list of Labels and Milestones for _our_ repo -- `2015--SUMMER--FEE` -- _and_ a bunch of Issies for that repo. Any potential problems there? I mean, how many can there be, right?
 
+### Shaping Up With Angular JS
+
+Last night was a (very) quick tour of the course. Tonight is reinforcement: play through (as in, try to complete without help) levels 1 and 2. You've got a lot to do tonight, so don't spend too much time here. If you get stuck, buy the answer and move on. Tomorrow you'll do the same with levels 2 (again) and 3. It'll come back around.
+
+### From Github With Love
+
+In `TIY-Gradebook`, you're working in your teams on basic mockups of the two main pages in the application: the Repository list and the Milestone list. Ensure that you've got Bootstrap included in your project, and review the [List Group](http://getbootstrap.com/components/#list-group) and [Progress Bar](http://getbootstrap.com/components/#progress) components. Using lorem ipsum and / or hard-coded values from the API data to create _at least three_ dummy list items for each view.
+
+#### BEAST MODE
+
+If you selected both Bootstrap and Sass when you used `yo gulp-webapp` then you got `bootstrap-sass` -- the Sass port of Bootstrap -- as a dependency, which means you can `@extend` those classes instead of just assigning them to HTML elements. That would be a more... sophisticated approach.
+
 ## Resources
 
 * LINK
