@@ -136,11 +136,20 @@
   * [ ] `feature/cached-data` -- DID YOU READ API GYMNASTICS!?
 ```
 
-### WRITING ASSIGNMENT
+### Journal, Week 7: Any Way You Want It
 
-### READING ASSIGNMENT
+Welcome to Tuesday! Math quiz: if three features leave the station and are due on Thursday, how many should be complete by tonight? Remember that people who were _not_ on your team should be reviewing your journals this week. Hooray!
 
-### CODING ASSIGNMENT
+### Reading APIs: Github Issues
+
+Please answer any of the questions from Monday that you didn't get to and additionally refresh your memory (and notes) on how authentication works with the Github API by answering these questions:
+
+  * What credentials do I need to authenticate with the Github API?
+  * How can I provide authentication credentials to Github?
+
+### API Gymnastics
+
+Gonna need some data from that API, y'all. Create a directory called `api/github/` and start putting cached JSON data in there. We'll need a list of all the Repositories for `TheIronYard--Orlando`, the list of Labels and Milestones for _our_ repo -- `2015--SUMMER--FEE` -- _and_ a bunch of Issies for that repo. Any potential problems there? I mean, how many can there be, right?
 
 ## Resources
 
