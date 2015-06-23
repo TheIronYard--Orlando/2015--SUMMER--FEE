@@ -1,4 +1,4 @@
-# ASSIGNMENT TITLE
+# 32 -- You Only `GET` Twice
 
 ## Rituals (~1h 15m)
 
@@ -6,28 +6,31 @@
 * **Three Little Things** (~30m)
 * **Homework Review** (~30m)
 
-## Agenda
+## Lecture
+
+* Repositories are easy...
+* Milestones are hard...
 
 ## Assignment
 
 ```markdown
 * [ ] **Yak Shaving**
-  * _WIP Issue_: `XX -- Assignment Name -- YOUR NAME`
+  * _WIP Issue_: `32 -- You Only GET Twice -- YOUR NAME`
   *  _WIP Branch_:
   * _WIP Files_:
-* [ ] **WRITING**
-  * checkpoints
-* [ ] **READING**
-  * checkpoints
-* [ ] **CODING**
-  * checkpoints
+* [ ] **Journal, Week 7: Any Way You Want It**
+* [ ] **Reading APIs: `hello.js`**
+* [ ] **Shaping Up with Angular JS**
+* [ ] **You Only `GET` Twice**
 ```
 
-### WRITING ASSIGNMENT
+### Journal, Week 7: Any Way You Want It
 
-### READING ASSIGNMENT
+### Reading APIs: `hello.js`
 
-### CODING ASSIGNMENT
+### Shaping Up with Angular JS: Round 2
+
+### You Only `GET` Twice
 
 ## Resources
 
