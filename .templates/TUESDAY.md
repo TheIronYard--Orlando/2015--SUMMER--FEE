@@ -13,7 +13,7 @@
 ```markdown
 * [ ] **Yak Shaving**
   * _WIP Issue_: `XX -- Assignment Name -- YOUR NAME`
-  *  _WIP Branch_:
+  * _WIP Branch_:
   * _WIP Files_:
 * [ ] **WRITING**
   * checkpoints
