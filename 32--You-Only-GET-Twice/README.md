@@ -8,8 +8,30 @@
 
 ## Lecture
 
-* Repositories are easy...
-* Milestones are hard...
+* **Repositories are easy...**
+  * Fetch data with `$http`...
+  * Attach to Controller...
+  * Add placeholders to replace...
+    * Wait, there are lots of these.
+    * Time to `ng-repeat`!
+* **Milestones are hard...**
+  * Fetch data with `$http`...
+    * Wait, which data?
+    * We need Milestones...
+    * And Issues... Uh, oh.
+  * API Gymnastics
+    * How many results are returned by the API?
+    * How do I know that there are _more_ available?
+    * How do I know when I reach the end?
+    * Is there another way to ask for the data we need?
+    * What _information_ do we need from the data?
+    * How would we [collate the data](https://en.wikipedia.org/wiki/Collation)?
+  * New checklist:
+    * Fetch data with `$http`
+    * Collate data with `lodash`
+    * Attach to Controller
+    * Loop with `ng-repeat` as necessary
+    * Add placeholders to replace!
 
 ## Assignment
 
