@@ -58,25 +58,5 @@
 
 ## Assignment
 
-```markdown
-* [ ] **Yak Shaving**
-  * _WIP Issue_: `33 -- For Your Eyes Only -- YOUR NAME`
-  * _WIP Branch_:
-  * _WIP Files_:
-* [ ] **WRITING**
-  * checkpoints
-* [ ] **READING**
-  * checkpoints
-* [ ] **CODING**
-  * checkpoints
-```
+Why would I pile more on at this point?
 
-### WRITING ASSIGNMENT
-
-### READING ASSIGNMENT
-
-### CODING ASSIGNMENT
-
-## Resources
-
-* LINK
