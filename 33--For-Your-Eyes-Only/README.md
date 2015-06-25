@@ -58,5 +58,15 @@
 
 ## Assignment
 
-Why would I pile more on at this point?
+No new checklist items...
+
+### Shaping Up with Angular JS: Round 3
+
+Continuing with our exercise with Angular JS, work through levels 3 (again) and 4 of _Shaping Up_ on CodeSchool.  Over the weekend, work on levels 4 and 5.  Try to work through the challenges on your own, but don't get bogged down.
+
+### For Your Eyes Only: Beast Mode Edition
+
+Using the step-by-step process from the lecture, configure your Firebase app with a client ID and secret from Github and Github with the Authorization URL from Firebase. Then `bower install firebase` and try authenticating with Github. Keep an eye peeled for the easy-to-miss popup blocker notification in Chrome. Browser security rules consider any JavaScript that causes a new window to open without user interaction -- i.e. `window.open` outside of a `click` event -- to be a "popup" that _needs_ to be blocked.
+
+Once you've got your login working, can you get an access token? How can you add that access token to your `$http` calls? Once you've got _that_ puzzle solved, what about making some _real_ API requests instead... C'mon. Do it!
 
