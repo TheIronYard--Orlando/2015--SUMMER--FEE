@@ -193,4 +193,10 @@ Specifically read about [authenticating with Github](https://www.firebase.com/do
 
 ## Resources
 
-* LINK
+* **What is OAuth anyway?**
+  * https://en.wikipedia.org/wiki/OAuth
+  * https://www.youtube.com/watch?v=G27DGHeKEfg (:tv:)
+  * http://oauth.net/ | http://oauth.net/about
+  * http://oauthbible.com/
+  * http://stackoverflow.com/questions/4201431/what-exactly-is-oauthopen-authorization
+
