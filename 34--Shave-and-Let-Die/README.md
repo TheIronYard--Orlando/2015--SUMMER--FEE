@@ -74,7 +74,7 @@ We'll need somewhere to save our data for this week's application, and we don't 
 
 While we could totally use `$http` to interact with our Firebase apps, [the Restangular library](https://github.com/mgonto/restangular) makes interacting with [REST-ful APIs](https://en.wikipedia.org/wiki/Representational_state_transfer) _much_ easier. The whole API for Restangular fits in a single `README`, so start looking over that.
 
-### `ngRouter` aka `angular-route`
+#### `ngRouter` aka `angular-route`
 
 The simplest library for routing URLs to Controller code and loading templates is `ngRouter`, which comes as the `angular-route` package from Bower. Take some time to review the API for `$routeProvider` and the examples in the official documentation.
 
@@ -88,4 +88,19 @@ Finally, there are some ~~screenshots~~ _mockups_ in [the `TheIronYard--Orlando/
 
 ## Resources
 
-* LINK
+### How can I test for cross-browser compatibility?
+
+* [Sauce Labs](http://saucelabs.com)
+* [BrowserStack](http://browserstack.com)
+* [IE Tab](http://j.mp/1NpZQt3) -- Not really the same...
+
+### How can I fix IE bugs?
+
+* [Conditional Comments on Wikipedia](https://en.wikipedia.org/wiki/Conditional_comment)
+* [Conditional Comments on MSDN](https://msdn.microsoft.com/en-us/library/ms537512(v=vs.85).aspx)
+* [Conditional Comments on quirksmode.org](http://www.quirksmode.org/css/condcom.html)
+
+### What about _other_ cross-browser quirks?
+
+* See [Can I Use](http://caniuse.com/) and [autoprefixer](https://github.com/postcss/autoprefixer)
+* BTW, [already included in `generator-gulp-webapp`](http://j.mp/1LDSMv0)
