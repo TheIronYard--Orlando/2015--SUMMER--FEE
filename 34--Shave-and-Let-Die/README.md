@@ -60,13 +60,31 @@
 
 ### Journal, Week 8: Lovin' Touchin' Squeezin'
 
+Last week. Last _official_ journal entries. I hope that you've cultivated a habit, though; maybe one that will last beyond your time here... maybe even into final projects next week. Please write your three journal entries: reflective, tutorial, and bookmark.
+
+Then you've got three little features for your blog template to work on. Time to make some progress...! Have you `git flow init`-ed that repo yet?
+
 ### Reading APIs: Firebase & Restangular
 
 #### Firebase REST
 
+We'll need somewhere to save our data for this week's application, and we don't have a ready API that can provide the data for us. Looks like we'll have to make our own with Firebase! Start with [the Firebase REST API docs](https://www.firebase.com/docs/rest/) and delve into the supporting documentation as necessary.
+
 #### Restangular
 
+While we could totally use `$http` to interact with our Firebase apps, [the Restangular library](https://github.com/mgonto/restangular) makes interacting with [REST-ful APIs](https://en.wikipedia.org/wiki/Representational_state_transfer) _much_ easier. The whole API for Restangular fits in a single `README`, so start looking over that.
+
+### `ngRouter` aka `angular-route`
+
+The simplest library for routing URLs to Controller code and loading templates is `ngRouter`, which comes as the `angular-route` package from Bower. Take some time to review the API for `$routeProvider` and the examples in the official documentation.
+
 ### Shave and Let Die
+
+This week, we'll start building a revolutionary new software product: imagine a place where developers can ask questions and get answers from other developers. Even if I don't know the answer, I could vote for a question to increase its visibility on the site, and if I like one of the answers that someone else has added, I could vote that up, too. In fact, that voting thing sounds so important, let's call the thing `TIY-Upvote`.
+
+You'll all need your own `TIY-Upvote` repository, starting with `yo gulp-webapp` for `release/0.0.0`. We'll definitely use Angular JS, and we'll need to store data in Firebase, so we'll need all those dependencies recorded. There are some auxilliary libraries that will make our lives easier: `angular-route` and `Restangular`.
+
+Finally, there are some ~~screenshots~~ _mockups_ in [the `TheIronYard--Orlando/TIY-Upvote` repo on Github](https://github.com/TheIronYard--Orlando/TIY-Upvote) that you could use for Skitching the interfaces, and [the wiki for that repo](https://github.com/TheIronYard--Orlando/TIY-Upvote/wiki)has some User Stories to start you thinking. Can you think of any more?
 
 ## Resources
 
