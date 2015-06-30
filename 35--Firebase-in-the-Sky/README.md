@@ -177,11 +177,17 @@
           * `@return Object from Firebase.getAuth()`
 ```
 
-### WRITING ASSIGNMENT
+### Journal, Week 8: Loving' Touchin' Squeezin'
 
-### READING ASSIGNMENT
+Making progress, I assume... Continue!
 
-### CODING ASSIGNMENT
+### All Your Firebase Are Belong To Us
+
+Start by wiring up the tools that we discussed today in class: `ngRouter` and `Restangular`. Remember that the _module name_ (the dependency for your module) is `restangular` and the _service name_ (the dependency for your controller) is `Restangular`. I don't know why. Similarly pay attention to the _module_ and _service_ names for `ngRouter`! _This work should be in a branch by itself named `feature/getting-started`._
+
+Create _Milestones_ in your `TIY-Upvote` repo for each of the User Stories; just ignore the due dates for now. I've given you some sample features for each of those, which you should assign to the appropriate Milestone as you create branches and PRs for them. You should also put the checklists under each feature in those PRs and expand upon them. Link them to a master Issue called "Planning" that will show overall progress.
+
+Commit often, work together in pairs, take turns _not_ coding, review each other's PRs _before_ merging.
 
 ## Resources
 
