@@ -97,11 +97,11 @@
     * [ ] `feature/question-detail-scaffolding`
     * [ ] `feature/question-detail-dummy-data`
     * [ ] `feature/question-detail-live-data`
-  * [ ] **Anyone can view the Answers...*
+  * [ ] **Anyone can view the Answers...**
     * [ ] `feature/answer-list-scaffolding`
     * [ ] `feature/answer-list-dummy-data`
     * [ ] `feature/answer-list-live-data`
-  * [ ] **A Member can add a Question...*
+  * [ ] **A Member can add a Question...**
     * [ ] `feature/question-add-scaffolding`
       * [ ] created `views/questions-add.html`
       * [ ] defined route `questions/add`
@@ -116,7 +116,7 @@
     * [ ] `feature/answer-add-scaffolding`
     * [ ] `feature/answer-add-dummy-data`
     * [ ] `feature/answer-add-live-data`
-  * [ ] **A Member can vote on a Question...*
+  * [ ] **A Member can vote on a Question...**
     * [ ] `feature/question-vote-scaffolding`
       * [ ] wrote MFg HTML and Sass for voting interface
       * [ ] don't forget hover and active states!
