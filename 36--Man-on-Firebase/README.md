@@ -61,6 +61,13 @@
     * [ ] `npm install --global firebase-tools`
     * [ ] read about `firebase` CLI
     * [ ] `firebase deploy`
+* [ ] **Fire on the Mountain...**
+  * [ ] opened `release/0.1.0--scaffolding` from `develop` with _just_ scaffolding features
+  * [ ] published `release/0.1.0--scaffolding` to Github and opened PR to `master`
+  * [ ] finished `release/0.1.0--scaffolding` with `git flow release finish -k`
+  * [ ] pushed `master` _and_ tag `0.1.0--scaffolding` to Github
+  * [ ] confirmed PR is merged!
+  * [ ] deployed `0.1.0--scaffolding` to Firebase Hosting!
 ```
 
 ### WRITING ASSIGNMENT
@@ -70,9 +77,13 @@ Read about [`gulp-ng-annotate`](https://www.npmjs.com/package/gulp-ng-annotate) 
 
 Once you've got a successful build, you can start your release process and deploy...! To where, though? Turns out [Firebase provides free hosting](https://www.firebase.com/docs/hosting/)! Read about the `firebase-tools` CLI tool and deploy your tagged release with `firebase deploy`. Verify your deployment -- by visiting the website and testing it as a group -- and drop a link to your deployment in your _group_ Planning and _individual_ WIP Issues.
 
-### READING ASSIGNMENT
+### Fire on the Mountain
 
-### CODING ASSIGNMENT
+Beyond continuing your WIP on the _massive_ feature list, your big focus for tonight is getting a release cut and a delpoyment, uh... deployed. Your release should be named `release/0.1.0--scaffolding`, and you should have a PR from that branch into `master`. Remember to bump the version number!
+
+Once you've reviewed the _built_ release as a team -- `gulp serve:dist` FTW! -- and corrected any mistakes you identify as a group, finish the release, _keeping_ the local and remote branches, and push `master` and `develop` to Github to mark the PR as merged.
+
+Then check out your _tagged_ release and deploy to Firebase Hosting with `firebase deploy`! Hooray, you built some internet!
 
 ## Resources
 
