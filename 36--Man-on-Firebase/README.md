@@ -70,7 +70,10 @@
   * [ ] deployed `0.1.0--scaffolding` to Firebase Hosting!
 ```
 
-### WRITING ASSIGNMENT
+### Journal, Week 8: Lovin' Touchin' Squeezin'
+
+Reading and writing and merging! Oh my! Yeah, no new instructions...
+
 ### Reading APIs: `gulp-ng-annotate` and `firebase deploy`
 
 Read about [`gulp-ng-annotate`](https://www.npmjs.com/package/gulp-ng-annotate) and [`ng-annotate`](https://github.com/olov/ng-annotate/blob/master/README.md), which it depends on. Extrapolate the recipe into your `gulp build` task so that your built `app.js` includes the appropriate annotations. You'll be able to confirm your build with `gulp serve:dist`... check the console for errors.
