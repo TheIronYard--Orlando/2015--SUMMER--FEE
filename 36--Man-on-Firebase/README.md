@@ -52,11 +52,23 @@
   * [ ] feature 1 complete!
   * [ ] feature 2 complete!
   * [ ] feature 3 complete?
-* [ ] **CODING**
-  * checkpoints
+* [ ] **Reading APIs: `gulp-ng-annotate`**
+  * [ ] `gulp-ng-annotate`
+    * [ ] `npm install --save-dev gulp-ng-annotate`
+    * [ ] added `gulp-ng-annotate` to `gulp.task('html')`
+    * [ ] working `gulp build` and `gulp serve:dist`
+  * [ ] `firebase deploy`
+    * [ ] `npm install --global firebase-tools`
+    * [ ] read about `firebase` CLI
+    * [ ] `firebase deploy`
 ```
 
 ### WRITING ASSIGNMENT
+### Reading APIs: `gulp-ng-annotate` and `firebase deploy`
+
+Read about [`gulp-ng-annotate`](https://www.npmjs.com/package/gulp-ng-annotate) and [`ng-annotate`](https://github.com/olov/ng-annotate/blob/master/README.md), which it depends on. Extrapolate the recipe into your `gulp build` task so that your built `app.js` includes the appropriate annotations. You'll be able to confirm your build with `gulp serve:dist`... check the console for errors.
+
+Once you've got a successful build, you can start your release process and deploy...! To where, though? Turns out [Firebase provides free hosting](https://www.firebase.com/docs/hosting/)! Read about the `firebase-tools` CLI tool and deploy your tagged release with `firebase deploy`. Verify your deployment -- by visiting the website and testing it as a group -- and drop a link to your deployment in your _group_ Planning and _individual_ WIP Issues.
 
 ### READING ASSIGNMENT
 
