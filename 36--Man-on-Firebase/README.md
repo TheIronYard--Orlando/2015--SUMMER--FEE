@@ -6,7 +6,13 @@
 * **Three Little Things** (~30m)
 * **Homework Review** (~30m)
 
-## Agenda
+## Lecture
+
+* **Man on Firebase**
+  * Manually adding data to Firebase via the Admin
+  * Fetching sample data from Firebase
+  * Pushing sample data to Firebase
+  * Discuss data model...
 
 ## Assignment
 
