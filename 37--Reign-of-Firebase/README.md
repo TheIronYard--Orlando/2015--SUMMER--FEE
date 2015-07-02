@@ -8,6 +8,23 @@
 
 ## Agenda
 
+* Refactoring project structure
+  * How should I structure my application? 
+    * [_Angular Best Practice for App Structure_ by Google](http://j.mp/1qtH9Ol)
+    * [_Angular Style Guide_ by John Papa](https://github.com/johnpapa/angular-styleguide)
+  * Restructuring your application...
+* Using Firebase Auth to login with Github
+  * `bower install --save firebase`
+  * `var firebase = new Firebase('https://YOUR-FIREBASE-APP.firebaseapp.io')`
+  * `firebase.authWithOAuthPopup` on a click: login!
+  * `firebase.unauth` on _another_ click: logout!
+  * Who are you? `firebase.getAuth`
+  * No really, who are you? Like, from Github...
+* Refactoring to named Services:
+  * `.constant('API')`
+  * `.factory('Github')`
+  * `.factory('Auth')`
+
 ## Assignment
 
 ```markdown
