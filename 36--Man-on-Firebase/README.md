@@ -40,17 +40,14 @@
     * `TIY-Upvote`
       * `app/`
         * `scripts/`
-          * `tiy-upvote/`
-            * `app.js` -- module definition and `.config` functions
-            * `controllers/`
-              * `*Controller.js`
+          * `main.js`
         * `styles/`
           * `*.scss`
         * `views/`
           * `*.html`
         * `index.html`
       * `bower.json`
-        * `gulp-inject`
+        * `gulp-ng-annotate`
 * [ ] **Journal, Week 8: Lovin' Touchin' Squeezin'**
   * [ ] reflective journal written and reviewed?
   * [ ] tutorial journal written and reviewed?
