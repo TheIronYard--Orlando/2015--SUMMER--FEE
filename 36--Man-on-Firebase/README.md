@@ -55,7 +55,7 @@
   * [ ] feature 1 complete!
   * [ ] feature 2 complete!
   * [ ] feature 3 complete?
-* [ ] **Reading APIs: `gulp-ng-annotate`**
+* [ ] **Reading APIs**
   * [ ] `gulp-ng-annotate`
     * [ ] `npm install --save-dev gulp-ng-annotate`
     * [ ] added `gulp-ng-annotate` to `gulp.task('html')`
