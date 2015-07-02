@@ -13,8 +13,36 @@
 ```markdown
 * [ ] **Yak Shaving**
   * _WIP Issue_: `37 -- Reign of Firebase -- YOUR NAME`
+    * Links to:
+      * `USERNAME.github.io`
+        * PRs for `feature/*` into `develop` (merged)
+        * PR for `journal-week-8` into `master`
+      * `TIY-Upvote`:
+        * Issue No. 1: Planning
+        * PRs for `feature/*` into `develop`
+        * PR for `feature/inject-all-the-things` into `develop`
   * _WIP Branch_:
+    * `USERNAME.github.io`
+      * `feature/*` from `develop`
+      * `journal-week-8` from `master`
+    * `TIY-Upvote`
+      * `feature/*` from `develop`
+      * `feature/inject-all-the-things` from `develop`
   * _WIP Files_:
+    * `TIY-Upvote`
+      * `app/`
+        * `scripts/`
+          * `tiy-upvote/`
+            * `app.js` -- module definition and `.config` functions
+            * `controllers/`
+              * `*Controller.js`
+        * `styles/`
+          * `*.scss`
+        * `views/`
+          * `*.html`
+        * `index.html`
+      * `bower.json`
+        * `gulp-inject`
 * [ ] **WRITING**
   * checkpoints
 * [ ] **Reading APIs: `gulp-inject`**
