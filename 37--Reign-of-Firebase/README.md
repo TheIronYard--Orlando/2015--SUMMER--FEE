@@ -1,4 +1,4 @@
-# ASSIGNMENT TITLE
+# Reign of Firebase
 
 ## Rituals (~1h 15m)
 
@@ -12,7 +12,7 @@
 
 ```markdown
 * [ ] **Yak Shaving**
-  * _WIP Issue_: `XX -- Assignment Name -- YOUR NAME`
+  * _WIP Issue_: `37 -- Reign of Firebase -- YOUR NAME`
   * _WIP Branch_:
   * _WIP Files_:
 * [ ] **WRITING**
