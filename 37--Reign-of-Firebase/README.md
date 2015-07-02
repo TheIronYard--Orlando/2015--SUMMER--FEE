@@ -56,8 +56,26 @@
 * [ ] **Reading APIs: `gulp-inject`**
   * `npm install --save-dev gulp-inject gulp-angular-filesort`
   *
-* [ ] **CODING**
-  * checkpoints
+* [ ] **A Burning Ring of Firebase**
+  * [ ] Release: `0.2.0--Friday`
+  * [ ] Release: `0.3.0--Sunday`
+  * **Minimum Viable Product**
+    * [ ] **Anyone can view the list of Questions...**
+    * [ ] **Anyone can view a specific Question...**
+    * [ ] **Anyone can login with Github...**
+    * [ ] **A Member can ask a Question...**
+    * [ ] **A Member can provide an Answer...**
+    * [ ] **A Member who asked a Question can select an Answer...**
+  * **BEAST MODE: Stretch Goals**
+    * [ ] **A Member can vote on an Answer...**
+    * [ ] **A Member can vote on a Question...**
+    * [ ] **A Member can comment on Questions...**
+    * [ ] **A Member can comment on Answers...**
+  * **NIGHTMARE MODE**
+    * [ ] **Anyone can sort Questions...**
+      * by number of votes
+      * by most recent
+      * by unanswered
 ```
 
 ### Journal, Week 8: Lovin' Touchin' Squeezin'
@@ -76,7 +94,13 @@ Our friend `gulp-inject` can also effectively replace `wiredep` with some help f
 
 A more efficent method of delivering view partials is to [include them in the `index.html` file with `<script type="text/ng-template">` tags](https://docs.angularjs.org/api/ng/directive/script). If the `id` attribute of the tag matches a `templateUrl` path specified in a route, the contents of the `<script>` tag will be used as that template, instead. Can `gulp-inject` help with that, too?
 
-### CODING ASSIGNMENT
+### A Burning Ring of Firebase
+
+You need two more releases and deployments over the weekend: one on Friday and one on Sunday. We'll review your finished work on Monday morning, have a brief retrospective, and then get to your pitches. Don't forget to bump your version numbers in each release _and test your deployments!_
+
+I also cannot stress enough how important it is _NOT to wait until Sunday night at 12:30am_ to start your final release and deployment. Use your Friday release to _practice_ the release process.
+
+Even worse than waiting until the last minute to release is waiting until the last minute to merge a feature... certainly nothing could go wrong there. Recognize when it's time to kill a feature and when a feature is "done enough" to merge. Merge _before_ you go off on a wild tangent or crazy experiment.
 
 ## Resources
 
