@@ -93,4 +93,10 @@ Then check out your _tagged_ release and deploy to Firebase Hosting with `fireba
 
 ## Resources
 
-* LINK
+* **How should I write my routes?**
+  * https://github.com/TheIronYard--Orlando/TIY-Upvote/pulls/1
+* **How do I fix cross-browser compatibility problems?**
+  * https://msdn.microsoft.com/en-us/library/ms537512(v=vs.85).aspx
+  * https://css-tricks.com/how-to-create-an-ie-only-stylesheet/
+  * https://en.wikipedia.org/wiki/Conditional_comment
+
