@@ -15,16 +15,18 @@
   * _WIP Issue_: `37 -- Reign of Firebase -- YOUR NAME`
     * Links to:
       * `USERNAME.github.io`
-        * PRs for `feature/*` into `develop` (merged)
+        * PRs for `feature/*` into `remodeling` (merged)
         * PR for `journal-week-8` into `master`
+        * PR for `release/X.Y.Z` into `master`
       * `TIY-Upvote`:
         * Issue No. 1: Planning
         * PRs for `feature/*` into `develop`
         * PR for `feature/inject-all-the-things` into `develop`
   * _WIP Branch_:
     * `USERNAME.github.io`
-      * `feature/*` from `develop`
+      * `feature/*` from `remodeling`
       * `journal-week-8` from `master`
+      * `release/X.Y.Z` from `remodeling`
     * `TIY-Upvote`
       * `feature/*` from `develop`
       * `feature/inject-all-the-things` from `develop`
@@ -41,10 +43,16 @@
         * `views/`
           * `*.html`
         * `index.html`
-      * `bower.json`
+      * `package.json`
         * `gulp-inject`
-* [ ] **WRITING**
-  * checkpoints
+* [ ] **Journal, Week 8: Lovin' Touchin' Squeezin'**
+  * [ ] reflective journal done and reviewed!
+  * [ ] tutorial journal done and reviewed!
+  * [ ] bookmark journal done and reviewed!
+  * [ ] feature x1 done, reviewed, and merged!
+  * [ ] feature x2 done, reviewed, and merged!
+  * [ ] feature x3 done, reviewed, and merged!
+  * [ ] release branch `X.Y.Z` opened!
 * [ ] **Reading APIs: `gulp-inject`**
   * `npm install --save-dev gulp-inject gulp-angular-filesort`
   *
@@ -52,7 +60,9 @@
   * checkpoints
 ```
 
-### WRITING ASSIGNMENT
+### Journal, Week 8: Lovin' Touchin' Squeezin'
+
+Well, it's Thursday. You should have your journal entries and your template features ready and reviewed. Merge what you got, then _open a release branch_ from `remodeling` to `master`. Bump your version number and get some eyes on your work.
 
 ### Reading APIs: `gulp-inject`
 
