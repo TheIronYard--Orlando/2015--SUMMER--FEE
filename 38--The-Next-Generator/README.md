@@ -37,5 +37,14 @@
 
 ## Resources
 
-* [`generator-gulp-angular`](https://github.com/Swiip/generator-gulp-angular)
-* [Best Practice Recommendations for Angular App Structure](https://docs.google.com/document/d/1XXMvReO8-Awi1EZXAXS4PzDzdNvV6pGcuaF4Q9821Es/pub)
+* Hello, [`generator-gulp-angular`](https://github.com/Swiip/generator-gulp-angular)!
+  * Reference: [Best Practice Recommendations for Angular App Structure](https://docs.google.com/document/d/1XXMvReO8-Awi1EZXAXS4PzDzdNvV6pGcuaF4Q9821Es/pub)
+  * Prior Art: https://github.com/lauterry/generator-ngtailor
+  * Chick full of Good Ideas(tm):
+    * https://github.com/angular-ui/bootstrap
+    * https://material.angularjs.org/latest/
+    * https://learnboost.github.io/stylus/
+    * http://coffeescript.org/
+    * http://jade-lang.com/
+    * http://momentjs.com/docs/
+    * https://github.com/postcss/autoprefixer-core
